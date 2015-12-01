@@ -1,0 +1,1855 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+pre {
+	border: 1px solid red;
+}
+.box {
+    width: 300px; height: 300px;
+    box-shadow: inset 0 0 5em 1em #000;
+    background: url("http://lorempixel.com/300/300");
+}
+#openSalesModal {
+	margin-top: 30px;
+	margin-left: 40px;
+}
+</style>
+<script src="http://maps.googleapis.com/maps/api/js">
+
+</script>
+
+<script
+	src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script type="text/javascript"
+	src="https://jquery-csv.googlecode.com/files/jquery.csv-0.71.js"></script>
+<script
+	src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+<script src="//d3js.org/d3.v3.min.js" charset="utf-8"></script>
+<script type="text/javascript"
+	src="http://code.highcharts.com/highcharts.js"></script>
+<link rel="stylesheet"
+	href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css"
+	integrity="sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ=="
+	crossorigin="anonymous">
+
+<script type="text/javascript">
+  $(document).ready(function()
+      {
+        $(".dropdown-menu li a").click(function(){
+  $(this).parents(".dropdown").find('.btn').html($(this).text() + ' <span class="caret"></span>');
+  $(this).parents(".dropdown").find('.btn').val($(this).data('value'));
+
+});
+        
+        
+        $("#Msubmit").click(function(){
+        	$("#Mresult").show();
+        	var w= parseInt(document.querySelector('input[name="week"]:checked').value);        	        	       	
+        	var s=parseFloat($("#Msea").val());
+        	var c=parseInt($("#Mcloud").val());
+        	var t=parseInt($("#Mtemp").val());
+        	var h=parseInt($("#Mhumid").val());
+        	var ws=parseInt($("#Mwind").val());
+        	console.log(w);
+        	console.log(s);
+        	console.log(c);
+        	console.log(t);
+        	console.log(h);
+        	
+        	console.log(0-677.1736);
+        	console.log(27.0473*w);
+        	console.log(24.7701*s);
+        	console.log(1.2957*c);
+        	console.log(0-1.3838*t);
+        	console.log(0.2482*h);
+        	console.log(0-1.3838*ws);
+        	var sale=(0-677.1735695)+(27.0473090*w)+(24.7700918*s)+(1.2956898*c)+(0-1.3837639*ws)+(0.2482138*h)+(0-0.3389460*t);        	
+        	$("#Mresult").val(parseInt(sale));
+        });
+        
+		$("#Psubmit").click(function(){                	        	        	       	
+			$("#Presult").show();
+			var h=parseInt($("#Phumid").val());
+        	var d=parseInt($("#Pdew").val());        	
+        	var sale=(68.70042200)+(0.4200109*h)+(0-0.3325353*d);        	
+        	$("#Presult").val(parseInt(sale));
+        });
+		
+		$("#Rsubmit").click(function(){                	        	        	       	
+			$("#Rresult").show();
+			var t=parseInt($("#Rtemp").val());
+        	var w=parseInt($("#Rwind").val());   
+        	var v=parseInt($("#Rvisible").val()); 
+        	var sale=(370.242849)+(0-3.253557*t)+(0-2.211518*w)+(0-5.595350*v);        	
+        	$("#Rresult").val(parseInt(sale));
+        });
+		
+		$("#Ssubmit").click(function(){
+			$("#Sresult").show();
+        	var w= parseInt(document.querySelector('input[name="weekSan"]:checked').value);        	        	       	
+        	var s=parseFloat($("#Ssea").val());
+        	var c=parseInt($("#Scloud").val());
+        	var v=parseInt($("#Svisible").val());
+        	var d=parseInt($("#Sdew").val());
+        	var ws=parseInt($("#Swind").val());
+        	var sale=(0-6206.062438)+(872.028113*w)+(204.286986*s)+(0-8.647647*c)+(39.011129*v)+(8.317548*d)+(0-10.511496*ws);        	
+        	$("#Sresult").val(parseInt(sale));
+        });
+		
+		$("#Jsubmit").click(function(){
+			$("#Jresult").show();
+        	var g= parseInt(document.querySelector('input[name="game"]:checked').value);
+        	var w= parseInt(document.querySelector('input[name="weekJose"]:checked').value);
+        	var s=parseFloat($("#Jsea").val());
+        	var t=parseInt($("#Jtemp").val());
+        	var v=parseInt($("#Jvisible").val());
+        	var d=parseInt($("#Jdew").val());
+        	var ws=parseInt($("#Jwind").val());
+        	var sale=(0-1205.590307)+(0-4.773510*t)+(32.286678*w)+(1.833488*d)+(52.115290*s)+(9.349315*g)+(4.542894*v)+(0-1.910306*ws);        	
+        	$("#Jresult").val(parseInt(sale));
+        });
+        
+		$('#visibility li').on('click', function(){
+			visible=$(this).text();
+			console.log(visible);
+		});
+		$('#humidity li').on('click', function(){
+			humidity=$(this).text();
+			console.log(humidity);
+		});
+		
+		$('#cloudcover li').on('click', function(){
+			cloudcover=$(this).text();
+			console.log(cloudcover);
+		});
+		$('#wind li').on('click', function(){
+			wind=$(this).text();
+			console.log(wind);
+		});
+		$('#feelslike li').on('click', function(){
+			feelslike=$(this).text();
+			console.log(feelslike);
+		});
+		
+     $('#eid li').on('click', function(){	        	
+    $('#test3').val($(this).text());
+    $("#test4").val($("#sname").val());
+    $.get('trip_stats.csv', function(data) {
+    	stationObjects = $.csv.toObjects(data);
+		var dataByStation = d3.nest().key(function(d) {
+			return d.start_station_name; //column name "StationId" from the csv file 
+		}).entries(stationObjects);
+		
+		dataByStation.forEach(function(station) {
+			if (station.key == $("#sname").val()) {
+				console.log(station.values);
+				console.log(station.values.length);
+				
+				for(var i=0; i< station.values.length; i++){
+					if(station.values[i].end_station_name==$("#test3").val())
+						{
+					console.log(station.values[i].end_station_name);
+					console.log(station.values[i].total_trips);
+					var x = parseFloat(station.values[i].total_trips);
+					$("#test5").val(x);
+					break;
+						}
+					else
+						{
+						var x =0; 
+						$("#test5").val(x);
+						}
+				}				
+			}			
+		});
+    
+});
+        
+        });    
+      
+  $("#weekday").click(function()
+  {
+	  $("#containerweekday").show()
+  	$("#containerweekend").hide();
+	  var mySeries = [];
+		var options = {
+			chart : {
+				renderTo : 'containerweekday',
+				defaultSeriesType : 'column'
+			},
+			title : {
+				text : 'Weekday Sales'
+			},
+			xAxis : {
+				title:{
+					text : 'Station Id'
+				},
+				floor: 1,
+				ceiling: 84,
+	            tickInterval: 1,
+	            labels: {
+	            	enabled: true
+	            }
+			},
+			plotOptions: {
+			    series: {
+			        showInLegend: false
+			    }
+			},
+			yAxis : {
+				title : {
+					text : 'Sales'
+				}
+			},
+			series : [ {
+				data: mySeries,
+				name: "Overall weekday sales",
+				pointWidth: 5
+				}]
+		};
+
+		$.get('Sales_data.csv', function(data) {
+			
+			//convert csv data into array of objects
+			stationObjects = $.csv.toObjects(data);
+			var dataByStation = d3.nest().key(function(d) {
+				return d.station_id; //column name "StationId" from the csv file 
+			}).entries(stationObjects);
+
+			 //to categorize object data using key
+					
+			dataByStation.forEach(function(station) {
+				
+					console.log(station.values);
+					console.log(station.values.length);
+					
+					for(var i=0; i< station.values.length; i++){
+						console.log(station.values[i].total);
+						var x = parseFloat(station.values[i].station_id);
+						var y = parseFloat(station.values[i].bike_sold_weekday);
+						mySeries.push([x,y]);
+					}
+					
+				options.series.push(mySeries);
+				
+			});
+			var chart = new Highcharts.Chart(options);
+		});		
+
+  });
+  
+  $("#weekend").click(function()
+  {
+	  $("#containerweekend").show()
+  	$("#containerweekday").hide();
+	  var mySeries = [];
+		var options = {
+			chart : {
+				renderTo : 'containerweekend',
+				defaultSeriesType : 'column'
+			},
+			title : {
+				text : 'Weekend Sales'
+			},
+			xAxis : {
+				title:{
+					text : 'Station Id'
+				},
+				floor: 1,
+				ceiling: 84,
+	            tickInterval: 1,
+	            labels: {
+	            	enabled: true
+	            }
+			},
+			plotOptions: {
+			    series: {
+			        showInLegend: false
+			    }
+			},
+			yAxis : {
+				title : {
+					text : 'Sales'
+				}
+			},
+			series : [ {
+				data: mySeries,
+				name: "Overall weekend sales",
+				pointWidth: 5
+				}]
+		};
+
+		$.get('Sales_data.csv', function(data) {
+			
+			//convert csv data into array of objects
+			stationObjects = $.csv.toObjects(data);
+			var dataByStation = d3.nest().key(function(d) {
+				return d.station_id; //column name "StationId" from the csv file 
+			}).entries(stationObjects);
+
+			 //to categorize object data using key
+					
+			dataByStation.forEach(function(station) {
+				
+					console.log(station.values);
+					console.log(station.values.length);
+					
+					for(var i=0; i< station.values.length; i++){
+						console.log(station.values[i].total);
+						var x = parseFloat(station.values[i].station_id);
+						var y = parseFloat(station.values[i].bike_sold_weekend);
+						mySeries.push([x,y]);
+					}
+					
+				options.series.push(mySeries);
+				
+			});
+			var chart = new Highcharts.Chart(options);
+		});		
+
+  });
+  
+  $('#openMountainDialog').click(function(){ 
+	  $("#Mresult").hide();
+  });
+  $('#openPaloDialog').click(function(){ 
+	  $("#Presult").hide();
+  });
+  $('#openRedwoodDialog').click(function(){ 
+	  $("#Rresult").hide();
+  });
+  $('#openSanDialog').click(function(){ 
+	  $("#Sresult").hide();
+  });
+  $('#openJoseDialog').click(function(){ 
+	  $("#Jresult").hide();
+  });
+ 
+  
+        $("#stationsales").click(function(){
+        	$("#containerweekday").show()
+        	$("#containerweekend").hide();
+        	var mySeries = [];
+    		var options = {
+    			chart : {
+    				renderTo : 'containerweekday',
+    				defaultSeriesType : 'column'
+    			},
+    			title : {
+    				text : 'Weekday Sales'
+    			},
+    			xAxis : {
+    				title:{
+    					text : 'Station Id'
+    				},
+    				floor: 1,
+    				ceiling: 84,
+    	            tickInterval: 1,
+    	            labels: {
+    	            	enabled: true
+    	            }
+    			},
+    			plotOptions: {
+    			    series: {
+    			        showInLegend: false
+    			    }
+    			},
+    			yAxis : {
+    				title : {
+    					text : 'Sales'
+    				}
+    			},
+    			series : [ {
+    				data: mySeries,
+    				name: "Overall weekday sales",
+    				pointWidth: 5
+    				}]
+    		};
+
+    		$.get('Sales_data.csv', function(data) {
+    			
+    			//convert csv data into array of objects
+    			stationObjects = $.csv.toObjects(data);
+    			var dataByStation = d3.nest().key(function(d) {
+    				return d.station_id; //column name "StationId" from the csv file 
+    			}).entries(stationObjects);
+
+    			 //to categorize object data using key
+    					
+    			dataByStation.forEach(function(station) {
+    				
+    					console.log(station.values);
+    					console.log(station.values.length);
+    					
+    					for(var i=0; i< station.values.length; i++){
+    						console.log(station.values[i].total);
+    						var x = parseFloat(station.values[i].station_id);
+    						var y = parseFloat(station.values[i].bike_sold_weekday);
+    						mySeries.push([x,y]);
+    					}
+    					
+    				options.series.push(mySeries);
+    				
+    			});
+    			var chart = new Highcharts.Chart(options);
+    		});		
+
+        });
+			
+		
+      });
+</script>
+<script>
+$('form.ajax').on('submit', function(){
+	var that = $(this),
+	url = that.attr('action'),
+	type = that.attr('method'),
+	data = {};
+	that.find('[name]').each(function(index,value){
+		var that= $(this),
+		name = that.attr('name'),
+		value= that.val();
+		console.log(value);
+		data[name]= value;
+		
+	});
+	$.ajax({
+		url: url,
+		type: type,
+		data:data,
+		success: function(response){
+		 console.log(response);	
+		}
+	});
+	return false;
+});
+
+function demandCal(){
+	$("#finalDemand").show();
+	
+	var w= parseInt(document.querySelector('input[name="Dweek"]:checked').value);
+	console.log(w);
+	var g= parseInt(document.querySelector('input[name="Dgame"]:checked').value);
+	console.log(g);
+	console.log(visible);
+	console.log(humidity);
+	console.log(wind);
+	console.log(cloudcover);
+	console.log(feelslike);
+	console.log(StationName);
+	var demand=Math.floor((Math.random()*3)+1);
+	var actualdemand;
+	if(demand==1)
+		{
+		actualdemand="High";
+		}
+	if(demand==2)
+	{
+	actualdemand="Normal";
+	}
+	if(demand==3)
+	{
+	actualdemand="Low";
+	}
+	console.log(actualdemand);
+	$("#DemandResult").val(actualdemand);
+};
+
+function initialize() {
+  
+  var mapProp = {
+    center:new google.maps.LatLng(37.7141454,-122.25),
+    zoom:9,
+    mapTypeId:google.maps.MapTypeId.ROADMAP
+  };
+   map=new google.maps.Map(document.getElementById("googleMap"), mapProp);
+  
+  PlaceMarker();
+
+}
+  var infoWindows = []; 
+  function markerpoint(map,marker,name){
+  
+    var stationName= name;
+
+    var contentString =  '<h1 id="myInfoWinDiv">'+stationName+'</h1>'+ 
+'<body>'+
+'<a id="openTripDialog" href="#openTripModal" data-toggle="modal" data-target="#openTripModal" data-id=name>Trip Stats</a><br>'+
+'<br>'+
+'<a id="openAvailabilityDialog" href="#" data-toggle="modal" data-target="#openAvailModal">Subscriber Data</a><br>'+
+'<br>'+
+'<a id="openCustomerDialog" href="#" data-toggle="modal" data-target="#openCustModal">Customer Data</a><br>'+
+'<br>'+
+'<a id="openSalesDialog" href="#" data-toggle="modal" data-target="#openSalesModal">Total Sales</a><br>'+
+'<br>'+
+'<a id="openDemandDialog" href="#" data-toggle="modal" data-target="#openDemandModal">Demand Forcast</a><br>'+
+'</body>';
+      
+  var infowindow = new google.maps.InfoWindow({
+    
+    content: contentString
+
+  });
+  //google.maps.event.addListener(marker, 'click', function() 
+        //{
+          infowindow.open(map, marker);
+          infoWindows[0] = infowindow;
+          google.maps.event.addListener(infowindow, 'domready', function()
+          {
+            // jQuery Code
+            $('#openTripDialog').click(function()
+            {
+              //$("#window").dialog("open");
+             // $("#myModal").dialog({modal: true, height: 590, width: 1005 });
+              // how I can pass the "varToPassExample" to the dialog window ?
+              $("#test3").hide();
+              $("#test4").hide();
+              $("#test5").val("Select Station!");
+              $("#openTripDialog").attr('data-id', stationName);
+                var myStationId = $(this).data('id');
+                $(".modal-body #sname").val( myStationId );
+            });
+            $('#openDemandDialog').click(function(){
+            	$("#modal-content").empty()
+            	$("#finalDemand").hide();
+            	StationName = stationName;
+            	$("#stationname").val(stationName);
+            });
+            
+            $('#openAvailabilityDialog').click(function(){            	
+            	$("#containersubscriber").empty()
+            	var mySeries = [];
+        		var endStation = [];
+        		var options = {
+        			chart : {
+        				renderTo : 'containersubscriber',
+        				defaultSeriesType : 'column'
+        			},
+        			title : {
+        				text : 'Subcriber Trip Data'
+        			},
+        			xAxis : {
+        				categories: endStation,
+        				title:{
+        					text : 'End Station'
+        				}
+        			},
+        			plotOptions: {
+        			    series: {
+        			        dataLabels: {
+        			            enabled: true
+        			        },
+        			        showInLegend: false
+        			    }
+        			},
+        			yAxis : {
+        				title : {
+        					text : 'Trips by Subscribers'
+        				}
+        			},
+        			series : [ {
+        				data: mySeries,
+        				name: "Member Data",
+        				pointWidth: 10
+        				}]
+        		};
+
+        		$.get('station_subscriber_stats.csv', function(data) {
+        			
+        			//convert csv data into array of objects
+        			stationObjects = $.csv.toObjects(data);
+        			var dataByStation = d3.nest().key(function(d) {
+        				return d.start_station_id; //column name "StationId" from the csv file 
+        			}).entries(stationObjects);
+
+        			/* 	console.log(dataByStation);
+        				console.log(dataByStation["2"])
+        			 */
+        			 //to categorize object data using key
+        					
+        			dataByStation.forEach(function(station) {
+        				for(var i=0; i< station.values.length; i++){
+        					if (station.values[i].start_station_name == stationName){
+        					//console.log(station.values);
+        					console.log(station.values.length);
+        					
+        					
+        					for(var i=0; i< station.values.length; i++){
+        						//console.log(station.values[i].total_trips_subscriber);
+        						//console.log(station.values[i].end_station_id);
+        						var x = parseFloat(station.values[i].end_station_id);
+        						var y = parseFloat(station.values[i].total_trips_subscriber);
+        						//console.log(x);
+        						endStation.push(x);
+        						mySeries.push([y]);
+        						//options.series[0].data.push([station.values[i].Month,station.values[i].total]);
+        					}
+        			
+        					//endStation.sort();
+        					console.log(endStation);
+        					options.xAxis.categories.push(endStation);
+        				
+        					}    					
+            			}	
+        				options.series.push(mySeries);
+        				
+        				//options.series.showInLegend(false);
+        			});
+        			var chart = new Highcharts.Chart(options);
+        		});		
+            });            
+            //end of avail modal
+            $("#openCustomerDialog").click(function(){
+            	$("#containercustomer").empty()            	
+            	var mySeries = [];
+        		var endStation = [];
+        		var options = {
+        			chart : {
+        				renderTo : 'containercustomer',
+        				defaultSeriesType : 'column'
+        			},
+        			title : {
+        				text : 'Customer Trip Data'
+        			},
+        			xAxis : {
+        				categories: endStation,
+        				title:{
+        					text : 'End Station'
+        				}
+        			},
+        			plotOptions: {
+        			    series: {
+        			        dataLabels: {
+        			            enabled: true
+        			        },
+        			        showInLegend: false
+        			    }
+        			},
+        			yAxis : {
+        				title : {
+        					text : 'Trips by Customers'
+        				}
+        			},
+        			series : [ {
+        				data: mySeries,
+        				name: "Guest Data",
+        				pointWidth: 10
+        				}]
+        		};
+
+        		$.get('station_customer_stats.csv', function(data) {
+        			
+        			//convert csv data into array of objects
+        			stationObjects = $.csv.toObjects(data);
+        			var dataByStation = d3.nest().key(function(d) {
+        				return d.start_station_id; //column name "StationId" from the csv file 
+        			}).entries(stationObjects);
+
+        			/* 	console.log(dataByStation);
+        				console.log(dataByStation["2"])
+        			 */
+        			 //to categorize object data using key
+        					
+        			dataByStation.forEach(function(station) {
+        				for(var i=0; i< station.values.length; i++){
+        					if (station.values[i].start_station_name == stationName){
+        					//console.log(station.values);
+        					console.log(station.values.length);
+        					
+        					
+        					for(var i=0; i< station.values.length; i++){
+        						//console.log(station.values[i].total_trips_subscriber);
+        						//console.log(station.values[i].end_station_id);
+        						var x = parseFloat(station.values[i].end_station_id);
+        						var y = parseFloat(station.values[i].total_trips_customer);
+        						//console.log(x);
+        						endStation.push(x);
+        						mySeries.push([y]);
+        						//options.series[0].data.push([station.values[i].Month,station.values[i].total]);
+        					}
+        			
+        					//endStation.sort();
+        					console.log(endStation);
+        					options.xAxis.categories.push(endStation);
+        				
+        					}    					
+            			}	
+        				options.series.push(mySeries);
+        				
+        				//options.series.showInLegend(false);
+        			});
+        			var chart = new Highcharts.Chart(options);
+        		});
+            });
+            //end of customer
+            
+          
+            $('#openSalesDialog').click(function(){         	
+            	$("#dialog").hide();
+            	$("#containersales").empty()
+            	var mySeries = [];
+        		var options = {
+        			chart : {
+        				renderTo : 'containersales',
+        				defaultSeriesType : 'column'
+        			},
+        			title : {
+        				text : 'Monthly Sales'
+        			},
+        			xAxis : {
+        				title:{
+        					text : 'Month'
+        				},
+        			   floor: 1,
+        	           ceiling: 12,
+        	           tickInterval: 1,
+        	           minPadding: 0.1,
+        	           maxPadding: 0.1
+        			},
+        			yAxis : {
+        				title : {
+        					text : 'Sales'
+        				}
+        			},
+        			plotOptions: {
+        				   series: {
+        				       dataLabels: {
+        				           enabled: true
+        				       },
+        				       showInLegend: false
+        				   }
+        				},
+        			series : [ {        				
+        				data: mySeries,        				
+        				name: "Month",
+        				pointWidth: 20
+        				} ]        				
+        		};
+            	console.log("In openSalesmodal");
+            	console.log(stationName);
+            	$.get('TotalSalePerStationCountName.csv', function(data) {
+    				
+    				//convert csv data into array of objects
+    				stationObjects = $.csv.toObjects(data);
+    				var dataByStation = d3.nest().key(function(d) {
+    					return d.StationId; //column name "StationId" from the csv file 
+    				}).entries(stationObjects);
+    				
+    					//console.log(dataByStation);
+    					//console.log(dataByStation["2"])
+    				
+    				 //to categorize object data using key
+    						
+    				dataByStation.forEach(function(station) {
+    					for(var i=0; i< station.values.length; i++){
+    					if (station.values[i].StationName == stationName) {
+    						
+    						console.log(station.values);
+    						console.log(station.values.length);
+    						
+    						for(var i=0; i< station.values.length; i++){
+    							console.log(station.values[i].total);
+    							var x = parseFloat(station.values[i].Month);
+    							var y = parseFloat(station.values[i].total);
+    							mySeries.push([x,y]);
+    						}    						
+    					}    					
+    				}
+    					options.series.push(mySeries);    					    					
+    				});    				
+    			
+    				var chart = new Highcharts.Chart(options);
+    			});
+          	});
+          });
+       // });
+ 
+}
+  function addMarker(location,name) {
+   var marker=new google.maps.Marker({
+    position: location, 
+    map: map
+    }); 
+ 
+      
+     
+ google.maps.event.addListener(marker, 'click', function() {
+  closeInfowindow(); 
+  markerpoint(map,marker,name);
+ });
+   
+  }
+function closeInfowindow(){
+if(infoWindows.length > 0){
+infoWindows[0].set("marker",null);
+infoWindows[0].close();
+infoWindows.length = 0;
+}
+}
+  function PlaceMarker() {
+ var markerArray = [];
+  var stations = [
+"San Jose Diridon Caltrain Station",
+"San Jose Civic Center",
+"Santa Clara at Almaden",
+"Adobe on Almaden",
+"San Pedro Square",
+"Paseo de San Antonio",
+"San Salvador at 1st",
+"Japantown",
+"San Jose City Hall",
+"MLK Library",
+"SJSU 4th at San Carlos",
+"St James Park",
+"Arena Green / SAP Center",
+"SJSU - San Salvador at 9th",
+"Franklin at Maple",
+"Redwood City Caltrain Station",
+"San Mateo County Center",
+"Redwood City Public Library",
+"Stanford in Redwood City",
+"Redwood City Medical Center",
+"Mountain View City Hall",
+"Mountain View Caltrain Station",
+"San Antonio Caltrain Station",
+"Evelyn Park and Ride",
+"San Antonio Shopping Center",
+"Castro Street and El Camino Real",
+"Rengstorff Avenue / California Street",
+"Palo Alto Caltrain Station",
+"University and Emerson",
+"California Ave Caltrain Station",
+"Cowper at University",
+"Park at Olive",
+"Clay at Battery",
+"Davis at Jackson",
+"Commercial at Montgomery",
+"Washington at Kearney",
+"Post at Kearney",
+"Embarcadero at Vallejo",
+"Spear at Folsom",
+"Harry Bridges Plaza (Ferry Building)",
+"Embarcadero at Folsom",
+"Powell Street BART",
+"Embarcadero at Bryant",
+"Temporary Transbay Terminal (Howard at Beale)",
+"Beale at Market",
+"5th at Howard",
+"San Francisco City Hall",
+"Golden Gate at Polk",
+"Embarcadero at Sansome",
+"2nd at Townsend",
+"2nd at Folsom",
+"Howard at 2nd",
+"2nd at South Park",
+"Townsend at 7th",
+"South Van Ness at Market",
+"Market at 10th",
+"Yerba Buena Center of the Arts (3rd @ Howard)",
+"San Francisco Caltrain 2 (330 Townsend)",
+"San Francisco Caltrain (Townsend at 4th)",
+"Powell at Post (Union Square)",
+"Civic Center BART (7th at Market)",
+"Grant Avenue at Columbus Avenue",
+"Steuart at Market",
+"Mechanics Plaza (Market at Battery)",
+"Market at 4th",
+"Market at Sansome",
+"Santa Clara County Civic Center",
+"Broadway St at Battery St",
+"Mezes Park",
+"Ryland Park"
+];
+var latitudes = [
+"37.329732",
+"37.330698",
+"37.333988",
+"37.331415",
+"37.336721",
+"37.333798",
+"37.330165",
+"37.348742",
+"37.337391",
+"37.335885",
+"37.332808",
+"37.339301",
+"37.332692",
+"37.333955",
+"37.481758",
+"37.486078",
+"37.487616",
+"37.484219",
+"37.48537",
+"37.487682",
+"37.389218",
+"37.394358",
+"37.40694",
+"37.390277",
+"37.400443",
+"37.385956",
+"37.400241",
+"37.443988",
+"37.444521",
+"37.429082",
+"37.448598",
+"37.4256839",
+"37.795001",
+"37.79728",
+"37.794231",
+"37.795425",
+"37.788975",
+"37.799953",
+"37.790302",
+"37.795392",
+"37.791464",
+"37.783871",
+"37.787152",
+"37.789756",
+"37.792251",
+"37.781752",
+"37.77865",
+"37.781332",
+"37.80477",
+"37.780526",
+"37.785299",
+"37.786978",
+"37.782259",
+"37.771058",
+"37.774814",
+"37.776619",
+"37.784878",
+"37.7766",
+"37.776617",
+"37.788446",
+"37.781039",
+"37.798522",
+"37.794139",
+"37.7913",
+"37.786305",
+"37.789625",
+"37.352601",
+"37.798541",
+"37.491269",
+"37.342725"
+];
+var longitudes = [
+"-121.901782",
+"-121.888979",
+"-121.894902",
+"-121.8932",
+"-121.894074",
+"-121.886943",
+"-121.885831",
+"-121.894715",
+"-121.886995",
+"-121.88566",
+"-121.883891",
+"-121.889937",
+"-121.900084",
+"-121.877349",
+"-122.226904",
+"-122.232089",
+"-122.229951",
+"-122.227424",
+"-122.203288",
+"-122.223492",
+"-122.081896",
+"-122.076713",
+"-122.106758",
+"-122.066553",
+"-122.108338",
+"-122.083678",
+"-122.099076",
+"-122.164759",
+"-122.163093",
+"-122.142805",
+"-122.159504",
+"-122.1377775",
+"-122.39997",
+"-122.398436",
+"-122.402923",
+"-122.404767",
+"-122.403452",
+"-122.398525",
+"-122.390637",
+"-122.394203",
+"-122.391034",
+"-122.408433",
+"-122.388013",
+"-122.394643",
+"-122.397086",
+"-122.405127",
+"-122.418235",
+"-122.418603",
+"-122.403234",
+"-122.390288",
+"-122.396236",
+"-122.398108",
+"-122.392738",
+"-122.402717",
+"-122.418954",
+"-122.417385",
+"-122.401014",
+"-122.39547",
+"-122.39526",
+"-122.408499",
+"-122.411748",
+"-122.407245",
+"-122.394434",
+"-122.399051",
+"-122.404966",
+"-122.400811",
+"-121.905733",
+"-122.400862",
+"-122.236234",
+"-121.895617"
+];
+for (i = 0; i < stations.length; i++) { 
+    var stationlocation = new google.maps.LatLng(latitudes[i], longitudes[i]);
+    addMarker(stationlocation,stations[i]);
+}     
+}
+google.maps.event.addDomListener(window, 'load', initialize);
+</script>
+</head>
+
+<body>
+	<div id="googleMap" style="width: 1100px; height: 880px; display:inline-block;float:left;"></div>
+	<div id="forcast" style="display:inline-block;float:left;margin:0px;padding-top:50px;padding-bottom:500px;text-align:center;position: fixed;width:260px;background-image: url(abstract_background7.jpg)">		
+		<input type="button" class="btn btn-info" name="stationsales" id="stationsales" size="35" style="margin:20px;"
+			value="Station Sales" data-toggle="modal"
+			data-target="#StationSalesModal" />
+			<hr>
+		<label style="height: 30px; line-height: 30px; padding: 0;margin:20px;">Select Region for Forcast</label><br><br>	
+		<a id="openMountainDialog" href="#" data-toggle="modal" data-target="#openMountainModal">Mountain View</a><br>
+		<a id="openPaloDialog" href="#" data-toggle="modal" data-target="#openPaloModal">Palo Alto</a><br>
+		<a id="openRedwoodDialog" href="#" data-toggle="modal" data-target="#openRedwoodModal">Redwood City</a><br>
+		<a id="openSanDialog" href="#" data-toggle="modal" data-target="#openSanModal">San Francisco</a><br>
+		<a id="openJoseDialog" href="#" data-toggle="modal" data-target="#openJoseModal">San Jose</a><br>
+		<br>
+	</div>
+	<div id="openMountainModal" class="modal fade" tabindex="-1" role="dialog"
+		aria-labelledby="myModalLabel" aria-hidden="true">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal"
+						aria-hidden="true">&times;</button>
+					<h4 class="modal-title" id="myModalLabel">Mountain View</h4>
+				</div>
+				<div class="modal-body">
+					<div class="row" style="margin:20px">
+						<div class="col-md-3">
+							<label>Weekday:</label>
+						</div>
+						<div class="col-md-5">
+							<input type="radio" name="week" id="weekY" value="1">Yes  				
+  							<input type="radio" name="week" id="weekN" value="0">No<br>
+						</div>
+					</div>	
+					<div class="row" style="margin:20px">
+						<div class="col-md-3">
+							<label>Sea Pressure:</label>
+						</div>
+						<div class="col-md-5">
+							<input type="text" name="Msea" id="Msea"
+						size="35" value="" /><br>		
+						</div>
+					</div>									
+														
+					<div class="row" style="margin:20px">
+						<div class="col-md-3">
+							<label>Cloudcover:</label>
+						</div>
+						<div class="col-md-5">
+							<input type="text" name="Mcloud" id="Mcloud"
+						size="35" value="" /><br>
+						</div>
+					</div>
+					
+					<div class="row" style="margin:20px">
+						<div class="col-md-3">
+							<label>Wind Speed:</label>
+						</div>
+						<div class="col-md-5">
+							<input type="text" name="Mwind" id="Mwind"
+						size="35" value="" /><br>
+						</div>
+					</div>
+					
+					<div class="row" style="margin:20px">
+						<div class="col-md-3">
+							<label>Temperature:</label>
+						</div>
+						<div class="col-md-5">
+							<input type="text" name="Mtemp" id="Mtemp"
+						size="35" value="" /><br>
+						</div>
+					</div>
+					
+					<div class="row" style="margin:20px">
+						<div class="col-md-3">
+							<label>Humidity:</label>
+						</div>
+						<div class="col-md-5">
+							<input type="text" name="Mhumid" id="Mhumid"
+						size="35" value="" /><br>
+						</div>
+					</div>
+					
+					<div class="row" style="margin:20px">
+						<div class="col-md-3">
+						</div>
+						<div class="col-md-5" style="text-align:center">
+							<button class="btn btn-info" id="Msubmit">Submit</button><br>
+						</div>
+					</div>
+					<div class="row" style="margin:20px">
+						<div class="col-md-3">
+							<label>No of Sales:</label>
+						</div>
+						<div class="col-md-5">							
+							<input type="text" name="Mresult" id="Mresult"
+						size="35" value="" readonly/><br>
+						</div>
+					</div>																		
+				</div>					
+						
+				<div class="modal-footer">
+					<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<div id="openPaloModal" class="modal fade" tabindex="-1" role="dialog"
+		aria-labelledby="myModalLabel" aria-hidden="true">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal"
+						aria-hidden="true">&times;</button>
+					<h4 class="modal-title" id="myModalLabel">Palo Alto</h4>
+				</div>
+				<div class="modal-body">
+					<div class="row" style="margin:20px">
+						<div class="col-md-3">
+							<label>Humidity:</label>
+						</div>
+						<div class="col-md-5">
+							<input type="text" name="Phumid" id="Phumid"
+						size="35" value="" /><br>	
+						</div>
+					</div>	
+					<div class="row" style="margin:20px">
+						<div class="col-md-3">
+							<label>Dew Point:</label>
+						</div>
+						<div class="col-md-5">
+							<input type="text" name="Pdew" id="Pdew"
+						size="35" value="" /><br>		
+						</div>
+					</div>																																							
+					
+					<div class="row" style="margin:20px">
+						<div class="col-md-3">
+						</div>
+						<div class="col-md-5" style="text-align:center">
+							<button class="btn btn-info" id="Psubmit">Submit</button><br>
+						</div>
+					</div>
+					<div class="row" style="margin:20px">
+						<div class="col-md-3">
+							<label>No of Sales:</label>
+						</div>
+						<div class="col-md-5">							
+							<input type="text" name="Presult" id="Presult"
+						size="35" value="" readonly/><br>
+						</div>
+					</div>																		
+				</div>					
+						
+				<div class="modal-footer">
+					<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<div id="openRedwoodModal" class="modal fade" tabindex="-1" role="dialog"
+		aria-labelledby="myModalLabel" aria-hidden="true">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal"
+						aria-hidden="true">&times;</button>
+					<h4 class="modal-title" id="myModalLabel">Redwood City</h4>
+				</div>
+				<div class="modal-body">
+					<div class="row" style="margin:20px">
+						<div class="col-md-3">
+							<label>Temperature:</label>
+						</div>
+						<div class="col-md-5">
+							<input type="text" name="Rtemp" id="Rtemp"
+						size="35" value="" /><br>	
+						</div>
+					</div>	
+					<div class="row" style="margin:20px">
+						<div class="col-md-3">
+							<label>Wind Speed:</label>
+						</div>
+						<div class="col-md-5">
+							<input type="text" name="Rwind" id="Rwind"
+						size="35" value="" /><br>		
+						</div>
+					</div>	
+																																											
+					<div class="row" style="margin:20px">
+						<div class="col-md-3">
+							<label>Visibility:</label>
+						</div>
+						<div class="col-md-5">
+							<input type="text" name="Rvisible" id="Rvisible"
+						size="35" value="" /><br>		
+						</div>
+					</div>	
+					
+					<div class="row" style="margin:20px">
+						<div class="col-md-3">
+						</div>
+						<div class="col-md-5" style="text-align:center">
+							<button class="btn btn-info" id="Rsubmit">Submit</button><br>
+						</div>
+					</div>
+					<div class="row" style="margin:20px">
+						<div class="col-md-3">
+							<label>No of Sales:</label>
+						</div>
+						<div class="col-md-5">							
+							<input type="text" name="Rresult" id="Rresult"
+						size="35" value="" readonly/><br>
+						</div>
+					</div>																		
+				</div>					
+						
+				<div class="modal-footer">
+					<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<div id="openSanModal" class="modal fade" tabindex="-1" role="dialog"
+		aria-labelledby="myModalLabel" aria-hidden="true">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal"
+						aria-hidden="true">&times;</button>
+					<h4 class="modal-title" id="myModalLabel">San Francisco</h4>
+				</div>
+				<div class="modal-body">
+					<div class="row" style="margin:20px">
+						<div class="col-md-3">
+							<label>Weekday:</label>
+						</div>
+						<div class="col-md-5">
+							<input type="radio" name="weekSan" id="weekY" value="1">Yes  				
+  							<input type="radio" name="weekSan" id="weekN" value="0">No<br>
+						</div>
+					</div>	
+					<div class="row" style="margin:20px">
+						<div class="col-md-3">
+							<label>Sea Pressure:</label>
+						</div>
+						<div class="col-md-5">
+							<input type="text" name="Ssea" id="Ssea"
+						size="35" value="" /><br>		
+						</div>
+					</div>									
+														
+					<div class="row" style="margin:20px">
+						<div class="col-md-3">
+							<label>Cloudcover:</label>
+						</div>
+						<div class="col-md-5">
+							<input type="text" name="Scloud" id="Scloud"
+						size="35" value="" /><br>
+						</div>
+					</div>
+					
+					<div class="row" style="margin:20px">
+						<div class="col-md-3">
+							<label>Wind Speed:</label>
+						</div>
+						<div class="col-md-5">
+							<input type="text" name="Swind" id="Swind"
+						size="35" value="" /><br>
+						</div>
+					</div>
+					
+					<div class="row" style="margin:20px">
+						<div class="col-md-3">
+							<label>Visibility:</label>
+						</div>
+						<div class="col-md-5">
+							<input type="text" name="Svisible" id="Svisible"
+						size="35" value="" /><br>		
+						</div>
+					</div>
+					
+					<div class="row" style="margin:20px">
+						<div class="col-md-3">
+							<label>Dew Point:</label>
+						</div>
+						<div class="col-md-5">
+							<input type="text" name="Sdew" id="Sdew"
+						size="35" value="" /><br>		
+						</div>
+					</div>
+					
+					<div class="row" style="margin:20px">
+						<div class="col-md-3">
+						</div>
+						<div class="col-md-5" style="text-align:center">
+							<button class="btn btn-info" id="Ssubmit">Submit</button><br>
+						</div>
+					</div>
+					<div class="row" style="margin:20px">
+						<div class="col-md-3">
+							<label>No of Sales:</label>
+						</div>
+						<div class="col-md-5">							
+							<input type="text" name="Sresult" id="Sresult"
+						size="35" value="" readonly/><br>
+						</div>
+					</div>																		
+				</div>					
+						
+				<div class="modal-footer">
+					<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<div id="openJoseModal" class="modal fade" tabindex="-1" role="dialog"
+		aria-labelledby="myModalLabel" aria-hidden="true">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal"
+						aria-hidden="true">&times;</button>
+					<h4 class="modal-title" id="myModalLabel">San Jose</h4>
+				</div>
+				<div class="modal-body">
+					<div class="row" style="margin:20px">
+						<div class="col-md-3">
+							<label>Weekday:</label>
+						</div>
+						<div class="col-md-5">
+							<input type="radio" name="weekJose" id="weekY" value="1">Yes  				
+  							<input type="radio" name="weekJose" id="weekN" value="0">No<br>
+						</div>
+					</div>	
+					<div class="row" style="margin:20px">
+						<div class="col-md-3">
+							<label>Sea Pressure:</label>
+						</div>
+						<div class="col-md-5">
+							<input type="text" name="Jsea" id="Jsea"
+						size="35" value="" /><br>		
+						</div>
+					</div>									
+														
+					<div class="row" style="margin:20px">
+						<div class="col-md-3">
+							<label>Dew Point:</label>
+						</div>
+						<div class="col-md-5">
+							<input type="text" name="Jdew" id="Jdew"
+						size="35" value="" /><br>
+						</div>
+					</div>
+					
+					<div class="row" style="margin:20px">
+						<div class="col-md-3">
+							<label>Visibility:</label>
+						</div>
+						<div class="col-md-5">
+							<input type="text" name="Jvisible" id="Jvisible"
+						size="35" value="" /><br>
+						</div>
+					</div>
+					
+					<div class="row" style="margin:20px">
+						<div class="col-md-3">
+							<label>Wind Speed:</label>
+						</div>
+						<div class="col-md-5">
+							<input type="text" name="Jwind" id="Jwind"
+						size="35" value="" /><br>
+						</div>
+					</div>
+					
+					<div class="row" style="margin:20px">
+						<div class="col-md-3">
+							<label>Temperature:</label>
+						</div>
+						<div class="col-md-5">
+							<input type="text" name="Jtemp" id="Jtemp"
+						size="35" value="" /><br>
+						</div>
+					</div>
+					
+					<div class="row" style="margin:20px">
+						<div class="col-md-3">
+							<label>Is Game Today?:</label>
+						</div>
+						<div class="col-md-5">
+							<input type="radio" name="game" id="gameY" value="1">Yes  				
+  							<input type="radio" name="game" id="gameN" value="0">No<br>
+						</div>
+					</div>
+					
+					<div class="row" style="margin:20px">
+						<div class="col-md-3">
+						</div>
+						<div class="col-md-5" style="text-align:center">
+							<button class="btn btn-info" id="Jsubmit">Submit</button><br>
+						</div>
+					</div>
+					<div class="row" style="margin:20px">
+						<div class="col-md-3">
+							<label>No of Sales:</label>
+						</div>
+						<div class="col-md-5">							
+							<input type="text" name="Jresult" id="Jresult"
+						size="35" value="" readonly/><br>
+						</div>
+					</div>																		
+				</div>					
+						
+				<div class="modal-footer">
+					<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	
+	<div id="openDemandModal" class="modal fade" tabindex="-1" role="dialog"
+		aria-labelledby="myModalLabel" aria-hidden="true">
+		<div class="modal-dialog">
+			<div class="modal-content">				
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal"
+						aria-hidden="true">&times;</button>
+					<h4 class="modal-title" id="myModalLabel">Demand Forcast</h4>
+				</div>
+				<div class="modal-body">
+																			
+					<div class="row" style="margin:20px">
+						<div class="col-md-4">
+							<label>Station Name:</label>
+						</div>
+						<div class="col-md-5">
+							<input type="text" id="stationname" name="stationname" size="35" value="" readonly>							  				  							
+						</div>
+					</div>
+					<div class="row" style="margin:20px">
+						<div class="col-md-4">
+							<label>Weekday:</label>
+						</div>
+						<div class="col-md-5">
+							<input type="radio" name="Dweek" id="weekY" value="1">Yes  				
+  							<input type="radio" name="Dweek" id="weekN" value="0">No<br>
+						</div>
+					</div>
+					<div class="dropdown" style="padding: 5px">
+						<div class="row" style="margin:16px">
+						<div class="col-md-4">
+						<label>Feels Like:</label>
+						</div>
+						<div class="col-md-5">
+						<button class="btn btn-default btn-sm dropdown-toggle"
+							type="button" data-toggle="dropdown" name="feelslike" style="padding: 5px">
+							Select <span class="caret"></span>
+						</button>
+						
+						<ul class="dropdown-menu" id="feelslike">
+							<li><a href="#">Extremely Hot</a></li>
+							<li><a href="#">Very Hot</a></li>
+							<li><a href="#">Hot</a></li>
+							<li><a href="#">Very Warm</a></li>
+							<li><a href="#">Warm</a></li>
+							<li><a href="#">Mild Cool</a></li>
+							<li><a href="#">Cool</a></li>
+							<li><a href="#">Cold</a></li>
+							<li><a href="#">Very Cold</a></li>
+							<li><a href="#">Freezingly Cold</a></li>
+							<li><a href="#">Bitter Cold</a></li>
+						</ul>
+						</div>
+					</div>
+					</div>
+					<div class="dropdown" style="padding: 5px">
+						<div class="row" style="margin:20px">
+						<div class="col-md-4">
+						<label>Humidity:</label>
+						</div>
+						<div class="col-md-4">
+						<button class="btn btn-default btn-sm dropdown-toggle"
+							type="button" data-toggle="dropdown" name="humidity" style="padding: 5px">
+							Select <span class="caret"></span>
+						</button>
+						
+						<ul class="dropdown-menu" id="humidity">
+							<li><a href="#">Oppressively Humid</a></li>
+							<li><a href="#">Miserably Humid</a></li>
+							<li><a href="#">Uncomfortably Humid</a></li>
+							<li><a href="#">Fairly Humid</a></li>
+							<li><a href="#">Comfortable</a></li>
+							<li><a href="#">Dry</a></li>							
+						</ul>
+						</div>
+						</div>
+					</div>
+					<div class="dropdown" style="padding: 5px">
+						<div class="row" style="margin:20px">
+						<div class="col-md-4">
+						<label>Visibility:</label>
+						</div>	
+						<div class="col-md-5">
+						<button class="btn btn-default btn-sm dropdown-toggle"
+							type="button" data-toggle="dropdown" name="visibility" style="padding: 5px">
+							Select <span class="caret"></span>
+						</button>
+						
+						<ul class="dropdown-menu" id="visibility">
+							<li><a href="#">Very Clear</a></li>
+							<li><a href="#">Clear</a></li>
+							<li><a href="#">Light Haze</a></li>
+							<li><a href="#">Haze</a></li>
+							<li><a href="#">Thin Fog</a></li>
+							<li><a href="#">Light Fog</a></li>
+							<li><a href="#">Moderate Fog</a></li>
+							<li><a href="#">Thick Fog</a></li>	
+							<li><a href="#">Dense Fog</a></li>						
+						</ul>
+						</div>
+						</div>
+					</div>
+					<div class="dropdown" style="padding: 5px">
+					<div class="row" style="margin:20px">
+					<div class="col-md-4">							
+						<label>Wind:</label>
+						</div>
+						<div class="col-md-5">	
+						<button class="btn btn-default btn-sm dropdown-toggle"
+							type="button" data-toggle="dropdown" name="wind" style="padding: 5px">
+							Select <span class="caret"></span>
+						</button>
+							
+						<ul class="dropdown-menu" id="wind">
+							<li><a href="#">Hurricane</a></li>
+							<li><a href="#">Voilent Storm</a></li>
+							<li><a href="#">Storm</a></li>
+							<li><a href="#">Strong Gale</a></li>
+							<li><a href="#">High Wind</a></li>
+							<li><a href="#">Strong Breeze</a></li>
+							<li><a href="#">Fresh Breez</a></li>
+							<li><a href="#">Moderate Breeze</a></li>	
+							<li><a href="#">Gentle Breeze</a></li>
+							<li><a href="#">Light Breeze</a></li>
+							<li><a href="#">Light Air</a></li>
+							<li><a href="#">Calm</a></li>													
+						</ul>
+						</div>
+						</div>
+					</div>
+					<div class="dropdown" style="padding: 5px">
+						
+						<div class="row" style="margin:20px">
+						<div class="col-md-4">
+						<label>Cloud Cover:</label>
+						</div>
+						<div class="col-md-5">
+						<button class="btn btn-default btn-sm dropdown-toggle"
+							type="button" data-toggle="dropdown" name="cloudcover" style="padding: 5px">
+							Select <span class="caret"></span>
+						</button>
+							
+						<ul class="dropdown-menu" id="cloudcover">
+							<li><a href="#">Overcast</a></li>
+							<li><a href="#">Broken</a></li>
+							<li><a href="#">Scattered</a></li>
+							<li><a href="#">Few</a></li>
+							<li><a href="#">Clear</a></li>																											
+						</ul>
+						</div>
+						</div>
+					</div>
+					<div class="row" style="margin:20px">
+						<div class="col-md-4">
+							<label>Is Game Today?:</label>
+						</div>
+						<div class="col-md-5">
+							<input type="radio" name="Dgame" id="gameY" value="1">Yes  				
+  							<input type="radio" name="Dgame" id="gameN" value="0">No<br>
+						</div>
+					</div>	
+					<div class="row" style="margin:20px">
+						<div class="col-md-3">
+						</div>
+						<div class="col-md-5" style="text-align:center">							
+													<button class="btn btn-info" name="DemandSubmit" id="DemandSubmit" onclick="setTimeout(demandCal,4000);">Submit</button>
+							
+						</div>
+					</div>
+						
+					<div class="row" id="finalDemand" style="margin:20px">
+						<div class="col-md-3">
+							<label>Demand:</label>
+						</div>
+						<div class="col-md-5">							
+	
+							<input type="text" id="DemandResult" name="DemandResult" size="35" value="" readonly>
+					<br>
+						</div>
+					</div>	
+																					
+				</div>
+				
+				<div class="modal-footer">
+					<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+
+				</div>
+			</div>
+			
+		</div>
+	</div>
+	
+	<div id="openTripModal" class="modal fade" tabindex="-1" role="dialog"
+		aria-labelledby="myModalLabel" aria-hidden="true">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal"
+						aria-hidden="true">&times;</button>
+					<h4 class="modal-title" id="myModalLabel">Trip Stats</h4>
+				</div>
+				<div class="modal-body">
+					<label>From:</label> <input type="text" name="sname" id="sname"
+						size="35" value="" readonly /><br>
+					<div class="dropdown" style="padding: 5px">
+						<label>&nbsp;To:&nbsp;&nbsp;</label>
+						<button class="btn btn-default btn-sm dropdown-toggle"
+							type="button" data-toggle="dropdown" style="padding: 5px">
+							Select Station <span class="caret"></span>
+						</button>
+						<ul class="dropdown-menu" id="eid">
+							<li><a href="#">San Jose Diridon Caltrain Station</a></li>
+							<li><a href="#">San Jose Civic Center</a></li>
+							<li><a href="#">Santa Clara at Almaden</a></li>
+							<li><a href="#">Adobe on Almaden</a></li>
+							<li><a href="#">San Pedro Square</a></li>
+							<li><a href="#">Paseo de San Antonio</a></li>
+							<li><a href="#">San Salvador at 1st</a></li>
+							<li><a href="#">San Jose City Hall</a></li>
+							<li><a href="#">MLK Library</a></li>
+							<li><a href="#">SJSU 4th at San Carlos</a></li>
+							<li><a href="#">St James Park</a></li>
+							<li><a href="#">Arena Green / SAP Center</a></li>
+							<li><a href="#">SJSU - San Salvador at 9th</a></li>
+
+							<li><a href="#">Franklin at Maple</a></li>
+							<li><a href="#">Redwood City Caltrain Station</a></li>
+							<li><a href="#">San Mateo County Center</a></li>
+							<li><a href="#">Redwood City Public Library</a></li>
+							<li><a href="#">Stanford in Redwood City</a></li>
+
+							<li><a href="#">Redwood City Medical Center</a></li>
+							<li><a href="#">Mountain View City Hall</a></li>
+							<li><a href="#">Mountain View Caltrain Station</a></li>
+							<li><a href="#">San Antonio Caltrain Station</a></li>
+							<li><a href="#">Evelyn Park and Ride</a></li>
+							<li><a href="#">San Antonio Shopping Center</a></li>
+							<li><a href="#">Castro Street and El Camino Real</a></li>
+							<li><a href="#">Rengstorff Avenue / California Street</a></li>
+							<li><a href="#">Palo Alto Caltrain Station</a></li>
+
+							<li><a href="#">University and Emerson</a></li>
+							<li><a href="#">California Ave Caltrain Station</a></li>
+							<li><a href="#">Cowper at University</a></li>
+							<li><a href="#">Park at Olive</a></li>
+							<li><a href="#">Clay at Battery</a></li>
+							<li><a href="#">Davis at Jackson</a></li>
+							<li><a href="#">Commercial at Montgomery</a></li>
+							<li><a href="#">Washington at Kearney</a></li>
+							<li><a href="#">Post at Kearney</a></li>
+
+							<li><a href="#">Embarcadero at Vallejo</a></li>
+							<li><a href="#">Spear at Folsom</a></li>
+							<li><a href="#">Harry Bridges Plaza (Ferry Building)</a></li>
+							<li><a href="#">Embarcadero at Folsom</a></li>
+							<li><a href="#">Powell Street BART</a></li>
+							<li><a href="#">Embarcadero at Bryant</a></li>
+							<li><a href="#">Temporary Transbay Terminal (Howard at
+									Beale)</a></li>
+
+							<li><a href="#">Beale at Market</a></li>
+							<li><a href="#">5th at Howard</a></li>
+							<li><a href="#">San Francisco City Hall</a></li>
+
+							<li><a href="#">Golden Gate at Polk</a></li>
+							<li><a href="#">Embarcadero at Sansome</a></li>
+							<li><a href="#">2nd at Townsend</a></li>
+							<li><a href="#">2nd at Folsom</a></li>
+							<li><a href="#">Howard at 2nd</a></li>
+							<li><a href="#">2nd at South Park</a></li>
+							<li><a href="#">Townsend at 7th</a></li>
+							<li><a href="#">South Van Ness at Market</a></li>
+							<li><a href="#">Market at 10th</a></li>
+							<li><a href="#">Yerba Buena Center of the Arts (3rd @
+									Howard)</a></li>
+							<li><a href="#">San Francisco Caltrain 2 (330 Townsend)</a></li>
+							<li><a href="#">San Francisco Caltrain (Townsend at 4th)</a></li>
+							<li><a href="#">Powell at Post (Union Square)</a></li>
+							<li><a href="#">Civic Center BART (7th at Market)</a></li>
+							<li><a href="#">Grant Avenue at Columbus Avenue</a></li>
+							<li><a href="#">Steuart at Market</a></li>
+							<li><a href="#">Mechanics Plaza (Market at Battery)</a></li>
+							<li><a href="#">Market at 4th</a></li>
+							<li><a href="#">Market at Sansome</a></li>
+							<li><a href="#">Santa Clara County Civic Center</a></li>
+							<li><a href="#">Broadway St at Battery St</a></li>
+							<li><a href="#">Mezes Park</a></li>
+							<li><a href="#">Ryland Park</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="modal-body">
+					<p>
+						<b>Calculate trip count by selecting a station from dropdown.
+						</b>
+					</p>
+					<p>
+						<input type="text" id="test4" size="35" value="" readonly>
+					</p>
+					<p>
+						<input type="text" id="test3" size="35" value="" readonly>
+					</p>
+					<p>
+						Total Trips: <input type="text" id="test5" value="" readonly>
+					</p>
+
+
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="openAvailModal" class="modal fade" tabindex="-1" role="dialog"
+		aria-labelledby="myModalLabel" aria-hidden="true">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal"
+						aria-hidden="true">&times;</button>
+					<h4 class="modal-title" id="myModalLabel">Subscriber Data</h4>
+				</div>
+				<div class="modal-body">									
+					<div id="containersubscriber"
+						style="width: 500px; height: 400px; margin: 0 auto"></div>					
+				</div>
+				
+				<div class="modal-footer">
+					<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<div id="openCustModal" class="modal fade" tabindex="-1" role="dialog"
+		aria-labelledby="myModalLabel" aria-hidden="true">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal"
+						aria-hidden="true">&times;</button>
+					<h4 class="modal-title" id="myModalLabel">Customer Data</h4>
+				</div>
+				<div class="modal-body">															
+					<div id="containercustomer"
+						style="width: 500px; height: 400px; margin: 0 auto"></div>
+				</div>
+				
+				<div class="modal-footer">
+					<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="openSalesModal" class="modal fade" tabindex="-1" role="dialog"
+		aria-labelledby="myModalLabel" aria-hidden="true">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal"
+						aria-hidden="true">&times;</button>
+					<h4 class="modal-title" id="myModalLabel">Total Sales of a
+						complete year</h4>
+				</div>
+				<div class="modal-body">
+					<div id="containersales"
+						style="width: 500px; height: 400px; margin: 0 auto"></div>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="StationSalesModal" class="modal fade" tabindex="-1"
+		role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal"
+						aria-hidden="true">&times;</button>
+					<h4 class="modal-title" id="myModalLabel">Station Sales</h4>
+				</div>
+				<div class="modal-body" style="text-align:center;">
+					
+					<button type="button" class="btn btn-default" id="weekday" >Weekday Sales</button>
+					<button type="button" class="btn btn-default" id="weekend" >Weekend Sales</button>
+					
+					<div id="containerweekday"
+						style="width: 500px; height: 400px; margin: 0 auto"></div>
+					<div id="containerweekend"
+						style="width: 500px; height: 400px; margin: 0 auto"></div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

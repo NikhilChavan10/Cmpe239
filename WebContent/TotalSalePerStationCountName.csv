@@ -1,0 +1,841 @@
+StationId,Month,total,StationName
+2,9,611,San Jose Diridon Caltrain Station
+2,10,717,San Jose Diridon Caltrain Station
+2,11,904,San Jose Diridon Caltrain Station
+2,12,1477,San Jose Diridon Caltrain Station
+2,1,1264,San Jose Diridon Caltrain Station
+2,2,980,San Jose Diridon Caltrain Station
+2,3,972,San Jose Diridon Caltrain Station
+2,4,1097,San Jose Diridon Caltrain Station
+2,5,831,San Jose Diridon Caltrain Station
+2,6,545,San Jose Diridon Caltrain Station
+2,7,517,San Jose Diridon Caltrain Station
+2,8,569,San Jose Diridon Caltrain Station
+3,9,382,San Jose Civic Center
+3,10,465,San Jose Civic Center
+3,11,519,San Jose Civic Center
+3,12,558,San Jose Civic Center
+3,1,614,San Jose Civic Center
+3,2,540,San Jose Civic Center
+3,3,575,San Jose Civic Center
+3,4,443,San Jose Civic Center
+3,5,564,San Jose Civic Center
+3,6,199,San Jose Civic Center
+3,7,257,San Jose Civic Center
+3,8,254,San Jose Civic Center
+4,9,197,Santa Clara at Almaden
+4,10,208,Santa Clara at Almaden
+4,11,137,Santa Clara at Almaden
+4,12,110,Santa Clara at Almaden
+4,1,158,Santa Clara at Almaden
+4,2,187,Santa Clara at Almaden
+4,3,225,Santa Clara at Almaden
+4,4,188,Santa Clara at Almaden
+4,5,187,Santa Clara at Almaden
+4,6,210,Santa Clara at Almaden
+4,7,204,Santa Clara at Almaden
+4,8,194,Santa Clara at Almaden
+5,9,62,Adobe on Almaden
+5,10,63,Adobe on Almaden
+5,11,39,Adobe on Almaden
+5,12,32,Adobe on Almaden
+5,1,53,Adobe on Almaden
+5,2,35,Adobe on Almaden
+5,3,57,Adobe on Almaden
+5,4,133,Adobe on Almaden
+5,5,87,Adobe on Almaden
+5,6,125,Adobe on Almaden
+5,7,41,Adobe on Almaden
+5,8,49,Adobe on Almaden
+6,9,653,San Pedro Square
+6,10,191,San Pedro Square
+6,11,252,San Pedro Square
+6,12,528,San Pedro Square
+6,1,244,San Pedro Square
+6,2,560,San Pedro Square
+6,3,839,San Pedro Square
+6,4,451,San Pedro Square
+6,5,766,San Pedro Square
+6,6,1022,San Pedro Square
+6,7,631,San Pedro Square
+6,8,770,San Pedro Square
+7,9,425,Paseo de San Antonio
+7,10,176,Paseo de San Antonio
+7,11,246,Paseo de San Antonio
+7,12,162,Paseo de San Antonio
+7,1,250,Paseo de San Antonio
+7,2,307,Paseo de San Antonio
+7,3,1068,Paseo de San Antonio
+7,4,216,Paseo de San Antonio
+7,5,106,Paseo de San Antonio
+7,6,98,Paseo de San Antonio
+7,7,139,Paseo de San Antonio
+7,8,129,Paseo de San Antonio
+8,9,65,San Salvador at 1st
+8,10,59,San Salvador at 1st
+8,11,55,San Salvador at 1st
+8,12,31,San Salvador at 1st
+8,1,76,San Salvador at 1st
+8,2,53,San Salvador at 1st
+8,3,48,San Salvador at 1st
+8,4,62,San Salvador at 1st
+8,5,66,San Salvador at 1st
+8,6,100,San Salvador at 1st
+8,7,58,San Salvador at 1st
+8,8,41,San Salvador at 1st
+9,9,222,Japantown
+9,10,316,Japantown
+9,11,321,Japantown
+9,12,93,Japantown
+9,1,119,Japantown
+9,2,97,Japantown
+9,3,343,Japantown
+9,4,135,Japantown
+9,5,162,Japantown
+9,6,129,Japantown
+9,7,283,Japantown
+9,8,165,Japantown
+10,9,505,San Jose City Hall
+10,10,602,San Jose City Hall
+10,11,361,San Jose City Hall
+10,12,558,San Jose City Hall
+10,1,752,San Jose City Hall
+10,2,514,San Jose City Hall
+10,3,501,San Jose City Hall
+10,4,70,San Jose City Hall
+10,5,508,San Jose City Hall
+10,6,230,San Jose City Hall
+10,7,127,San Jose City Hall
+10,8,325,San Jose City Hall
+11,9,172,MLK Library
+11,10,292,MLK Library
+11,11,303,MLK Library
+11,12,590,MLK Library
+11,1,728,MLK Library
+11,2,415,MLK Library
+11,3,403,MLK Library
+11,4,647,MLK Library
+11,5,536,MLK Library
+11,6,215,MLK Library
+11,7,199,MLK Library
+11,8,254,MLK Library
+12,9,1061,SJSU 4th at San Carlos
+12,10,1114,SJSU 4th at San Carlos
+12,11,1506,SJSU 4th at San Carlos
+12,12,1613,SJSU 4th at San Carlos
+12,1,1624,SJSU 4th at San Carlos
+12,2,1518,SJSU 4th at San Carlos
+12,3,1057,SJSU 4th at San Carlos
+12,4,1256,SJSU 4th at San Carlos
+12,5,1470,SJSU 4th at San Carlos
+12,6,733,SJSU 4th at San Carlos
+12,7,1541,SJSU 4th at San Carlos
+12,8,1010,SJSU 4th at San Carlos
+13,9,616,St James Park
+13,10,524,St James Park
+13,11,296,St James Park
+13,12,362,St James Park
+13,1,320,St James Park
+13,2,104,St James Park
+13,3,151,St James Park
+13,4,146,St James Park
+13,5,375,St James Park
+13,6,225,St James Park
+13,7,119,St James Park
+13,8,168,St James Park
+14,9,394,Arena Green / SAP Center
+14,10,76,Arena Green / SAP Center
+14,11,737,Arena Green / SAP Center
+14,12,1001,Arena Green / SAP Center
+14,1,78,Arena Green / SAP Center
+14,2,142,Arena Green / SAP Center
+14,3,153,Arena Green / SAP Center
+14,4,374,Arena Green / SAP Center
+14,5,402,Arena Green / SAP Center
+14,6,339,Arena Green / SAP Center
+14,7,179,Arena Green / SAP Center
+14,8,516,Arena Green / SAP Center
+16,9,176,SJSU - San Salvador at 9th
+16,10,567,SJSU - San Salvador at 9th
+16,11,861,SJSU - San Salvador at 9th
+16,12,893,SJSU - San Salvador at 9th
+16,1,143,SJSU - San Salvador at 9th
+16,2,36,SJSU - San Salvador at 9th
+16,3,213,SJSU - San Salvador at 9th
+16,4,537,SJSU - San Salvador at 9th
+16,5,477,SJSU - San Salvador at 9th
+16,6,328,SJSU - San Salvador at 9th
+16,7,327,SJSU - San Salvador at 9th
+16,8,404,SJSU - San Salvador at 9th
+21,9,1255,Franklin at Maple
+21,10,2029,Franklin at Maple
+21,11,2864,Franklin at Maple
+21,12,2499,Franklin at Maple
+21,1,1088,Franklin at Maple
+21,2,567,Franklin at Maple
+21,3,1878,Franklin at Maple
+21,4,1258,Franklin at Maple
+21,5,920,Franklin at Maple
+21,6,481,Franklin at Maple
+21,7,575,Franklin at Maple
+21,8,120,Franklin at Maple
+22,9,73,Redwood City Caltrain Station
+22,10,59,Redwood City Caltrain Station
+22,11,104,Redwood City Caltrain Station
+22,12,729,Redwood City Caltrain Station
+22,1,494,Redwood City Caltrain Station
+22,2,431,Redwood City Caltrain Station
+22,3,522,Redwood City Caltrain Station
+22,4,239,Redwood City Caltrain Station
+22,5,478,Redwood City Caltrain Station
+22,6,157,Redwood City Caltrain Station
+22,7,167,Redwood City Caltrain Station
+22,8,177,Redwood City Caltrain Station
+23,9,9,San Mateo County Center
+23,10,21,San Mateo County Center
+23,11,16,San Mateo County Center
+23,12,58,San Mateo County Center
+23,1,52,San Mateo County Center
+23,2,23,San Mateo County Center
+23,3,16,San Mateo County Center
+23,4,12,San Mateo County Center
+23,5,29,San Mateo County Center
+23,6,359,San Mateo County Center
+23,7,790,San Mateo County Center
+23,8,79,San Mateo County Center
+24,9,278,Redwood City Public Library
+24,10,503,Redwood City Public Library
+24,11,1347,Redwood City Public Library
+24,12,926,Redwood City Public Library
+24,1,2016,Redwood City Public Library
+24,2,1310,Redwood City Public Library
+24,3,1218,Redwood City Public Library
+24,4,808,Redwood City Public Library
+24,5,8,Redwood City Public Library
+24,6,253,Redwood City Public Library
+24,7,399,Redwood City Public Library
+24,8,300,Redwood City Public Library
+25,9,117,Stanford in Redwood City
+25,10,149,Stanford in Redwood City
+25,11,319,Stanford in Redwood City
+25,12,411,Stanford in Redwood City
+25,1,143,Stanford in Redwood City
+25,2,872,Stanford in Redwood City
+25,3,454,Stanford in Redwood City
+25,4,453,Stanford in Redwood City
+25,5,856,Stanford in Redwood City
+25,6,1261,Stanford in Redwood City
+25,7,956,Stanford in Redwood City
+25,8,682,Stanford in Redwood City
+26,9,103,Redwood City Medical Center
+26,10,101,Redwood City Medical Center
+26,11,136,Redwood City Medical Center
+26,12,8,Redwood City Medical Center
+26,1,39,Redwood City Medical Center
+26,2,27,Redwood City Medical Center
+26,3,33,Redwood City Medical Center
+26,4,37,Redwood City Medical Center
+26,5,23,Redwood City Medical Center
+26,6,16,Redwood City Medical Center
+26,7,34,Redwood City Medical Center
+26,8,39,Redwood City Medical Center
+27,9,278,Mountain View City Hall
+27,10,323,Mountain View City Hall
+27,11,300,Mountain View City Hall
+27,12,153,Mountain View City Hall
+27,1,202,Mountain View City Hall
+27,2,133,Mountain View City Hall
+27,3,197,Mountain View City Hall
+27,4,234,Mountain View City Hall
+27,5,153,Mountain View City Hall
+27,6,237,Mountain View City Hall
+27,7,241,Mountain View City Hall
+27,8,220,Mountain View City Hall
+28,9,789,Mountain View Caltrain Station
+28,10,614,Mountain View Caltrain Station
+28,11,697,Mountain View Caltrain Station
+28,12,546,Mountain View Caltrain Station
+28,1,419,Mountain View Caltrain Station
+28,2,537,Mountain View Caltrain Station
+28,3,780,Mountain View Caltrain Station
+28,4,759,Mountain View Caltrain Station
+28,5,909,Mountain View Caltrain Station
+28,6,665,Mountain View Caltrain Station
+28,7,592,Mountain View Caltrain Station
+28,8,731,Mountain View Caltrain Station
+29,9,131,San Antonio Caltrain Station
+29,10,170,San Antonio Caltrain Station
+29,11,99,San Antonio Caltrain Station
+29,12,82,San Antonio Caltrain Station
+29,1,175,San Antonio Caltrain Station
+29,2,194,San Antonio Caltrain Station
+29,3,227,San Antonio Caltrain Station
+29,4,298,San Antonio Caltrain Station
+29,5,167,San Antonio Caltrain Station
+29,6,98,San Antonio Caltrain Station
+29,7,94,San Antonio Caltrain Station
+29,8,100,San Antonio Caltrain Station
+30,9,778,Evelyn Park and Ride
+30,10,1064,Evelyn Park and Ride
+30,11,768,Evelyn Park and Ride
+30,12,1386,Evelyn Park and Ride
+30,1,1841,Evelyn Park and Ride
+30,2,898,Evelyn Park and Ride
+30,3,1031,Evelyn Park and Ride
+30,4,659,Evelyn Park and Ride
+30,5,834,Evelyn Park and Ride
+30,6,691,Evelyn Park and Ride
+30,7,471,Evelyn Park and Ride
+30,8,704,Evelyn Park and Ride
+31,9,210,San Antonio Shopping Center
+31,10,313,San Antonio Shopping Center
+31,11,329,San Antonio Shopping Center
+31,12,66,San Antonio Shopping Center
+31,1,130,San Antonio Shopping Center
+31,2,168,San Antonio Shopping Center
+31,3,198,San Antonio Shopping Center
+31,4,177,San Antonio Shopping Center
+31,5,135,San Antonio Shopping Center
+31,6,112,San Antonio Shopping Center
+31,7,78,San Antonio Shopping Center
+31,8,88,San Antonio Shopping Center
+32,9,155,Castro Street and El Camino Real
+32,10,136,Castro Street and El Camino Real
+32,11,103,Castro Street and El Camino Real
+32,12,62,Castro Street and El Camino Real
+32,1,119,Castro Street and El Camino Real
+32,2,81,Castro Street and El Camino Real
+32,3,114,Castro Street and El Camino Real
+32,4,105,Castro Street and El Camino Real
+32,5,117,Castro Street and El Camino Real
+32,6,121,Castro Street and El Camino Real
+32,7,158,Castro Street and El Camino Real
+32,8,177,Castro Street and El Camino Real
+33,9,54,Rengstorff Avenue / California Street
+33,10,51,Rengstorff Avenue / California Street
+33,11,43,Rengstorff Avenue / California Street
+33,12,52,Rengstorff Avenue / California Street
+33,1,113,Rengstorff Avenue / California Street
+33,2,59,Rengstorff Avenue / California Street
+33,3,123,Rengstorff Avenue / California Street
+33,4,196,Rengstorff Avenue / California Street
+33,5,75,Rengstorff Avenue / California Street
+33,6,69,Rengstorff Avenue / California Street
+33,7,96,Rengstorff Avenue / California Street
+33,8,115,Rengstorff Avenue / California Street
+34,9,566,Palo Alto Caltrain Station
+34,10,264,Palo Alto Caltrain Station
+34,11,267,Palo Alto Caltrain Station
+34,12,784,Palo Alto Caltrain Station
+34,1,827,Palo Alto Caltrain Station
+34,2,1116,Palo Alto Caltrain Station
+34,3,861,Palo Alto Caltrain Station
+34,4,322,Palo Alto Caltrain Station
+34,5,322,Palo Alto Caltrain Station
+34,6,500,Palo Alto Caltrain Station
+34,7,522,Palo Alto Caltrain Station
+34,8,471,Palo Alto Caltrain Station
+35,9,164,University and Emerson
+35,10,346,University and Emerson
+35,11,260,University and Emerson
+35,12,336,University and Emerson
+35,1,577,University and Emerson
+35,2,608,University and Emerson
+35,3,550,University and Emerson
+35,4,205,University and Emerson
+35,5,859,University and Emerson
+35,6,727,University and Emerson
+35,7,538,University and Emerson
+35,8,472,University and Emerson
+36,9,490,California Ave Caltrain Station
+36,10,546,California Ave Caltrain Station
+36,11,178,California Ave Caltrain Station
+36,12,785,California Ave Caltrain Station
+36,1,526,California Ave Caltrain Station
+36,2,428,California Ave Caltrain Station
+36,3,1124,California Ave Caltrain Station
+36,4,651,California Ave Caltrain Station
+36,5,1213,California Ave Caltrain Station
+36,6,1003,California Ave Caltrain Station
+36,7,1018,California Ave Caltrain Station
+36,8,546,California Ave Caltrain Station
+37,9,803,Cowper at University
+37,10,712,Cowper at University
+37,11,234,Cowper at University
+37,12,223,Cowper at University
+37,1,172,Cowper at University
+37,2,237,Cowper at University
+37,3,329,Cowper at University
+37,4,814,Cowper at University
+37,5,315,Cowper at University
+37,6,378,Cowper at University
+37,7,765,Cowper at University
+37,8,921,Cowper at University
+38,9,42,Park at Olive
+38,10,56,Park at Olive
+38,11,40,Park at Olive
+38,12,15,Park at Olive
+38,1,479,Park at Olive
+38,2,89,Park at Olive
+38,3,135,Park at Olive
+38,4,125,Park at Olive
+38,5,166,Park at Olive
+38,6,52,Park at Olive
+38,7,58,Park at Olive
+38,8,49,Park at Olive
+39,9,1039,Powell Street BART
+39,10,1177,Powell Street BART
+39,11,952,Powell Street BART
+39,12,785,Powell Street BART
+39,1,865,Powell Street BART
+39,2,815,Powell Street BART
+39,3,962,Powell Street BART
+39,4,904,Powell Street BART
+39,5,985,Powell Street BART
+39,6,926,Powell Street BART
+39,7,889,Powell Street BART
+39,8,1100,Powell Street BART
+41,9,669,Clay at Battery
+41,10,661,Clay at Battery
+41,11,518,Clay at Battery
+41,12,427,Clay at Battery
+41,1,631,Clay at Battery
+41,2,517,Clay at Battery
+41,3,671,Clay at Battery
+41,4,591,Clay at Battery
+41,5,587,Clay at Battery
+41,6,621,Clay at Battery
+41,7,613,Clay at Battery
+41,8,606,Clay at Battery
+42,9,764,Davis at Jackson
+42,10,822,Davis at Jackson
+42,11,825,Davis at Jackson
+42,12,558,Davis at Jackson
+42,1,555,Davis at Jackson
+42,2,520,Davis at Jackson
+42,3,909,Davis at Jackson
+42,4,867,Davis at Jackson
+42,5,726,Davis at Jackson
+42,6,768,Davis at Jackson
+42,7,802,Davis at Jackson
+42,8,779,Davis at Jackson
+45,9,813,Commercial at Montgomery
+45,10,845,Commercial at Montgomery
+45,11,575,Commercial at Montgomery
+45,12,506,Commercial at Montgomery
+45,1,648,Commercial at Montgomery
+45,2,592,Commercial at Montgomery
+45,3,757,Commercial at Montgomery
+45,4,652,Commercial at Montgomery
+45,5,635,Commercial at Montgomery
+45,6,608,Commercial at Montgomery
+45,7,693,Commercial at Montgomery
+45,8,608,Commercial at Montgomery
+46,9,354,Washington at Kearney
+46,10,319,Washington at Kearney
+46,11,289,Washington at Kearney
+46,12,225,Washington at Kearney
+46,1,338,Washington at Kearney
+46,2,303,Washington at Kearney
+46,3,375,Washington at Kearney
+46,4,363,Washington at Kearney
+46,5,332,Washington at Kearney
+46,6,306,Washington at Kearney
+46,7,352,Washington at Kearney
+46,8,359,Washington at Kearney
+47,9,523,Post at Kearney
+47,10,584,Post at Kearney
+47,11,382,Post at Kearney
+47,12,320,Post at Kearney
+47,1,418,Post at Kearney
+47,2,373,Post at Kearney
+47,3,484,Post at Kearney
+47,4,469,Post at Kearney
+47,5,470,Post at Kearney
+47,6,506,Post at Kearney
+47,7,533,Post at Kearney
+47,8,519,Post at Kearney
+48,9,665,Embarcadero at Vallejo
+48,10,721,Embarcadero at Vallejo
+48,11,594,Embarcadero at Vallejo
+48,12,444,Embarcadero at Vallejo
+48,1,547,Embarcadero at Vallejo
+48,2,502,Embarcadero at Vallejo
+48,3,635,Embarcadero at Vallejo
+48,4,606,Embarcadero at Vallejo
+48,5,643,Embarcadero at Vallejo
+48,6,737,Embarcadero at Vallejo
+48,7,772,Embarcadero at Vallejo
+48,8,783,Embarcadero at Vallejo
+49,9,552,Spear at Folsom
+49,10,649,Spear at Folsom
+49,11,423,Spear at Folsom
+49,12,400,Spear at Folsom
+49,1,547,Spear at Folsom
+49,2,411,Spear at Folsom
+49,3,553,Spear at Folsom
+49,4,586,Spear at Folsom
+49,5,535,Spear at Folsom
+49,6,576,Spear at Folsom
+49,7,642,Spear at Folsom
+49,8,602,Spear at Folsom
+50,9,2080,Harry Bridges Plaza (Ferry Building)
+50,10,2496,Harry Bridges Plaza (Ferry Building)
+50,11,1723,Harry Bridges Plaza (Ferry Building)
+50,12,1801,Harry Bridges Plaza (Ferry Building)
+50,1,2271,Harry Bridges Plaza (Ferry Building)
+50,2,2040,Harry Bridges Plaza (Ferry Building)
+50,3,2456,Harry Bridges Plaza (Ferry Building)
+50,4,2346,Harry Bridges Plaza (Ferry Building)
+50,5,2524,Harry Bridges Plaza (Ferry Building)
+50,6,2229,Harry Bridges Plaza (Ferry Building)
+50,7,2142,Harry Bridges Plaza (Ferry Building)
+50,8,2091,Harry Bridges Plaza (Ferry Building)
+51,9,1384,Embarcadero at Folsom
+51,10,1883,Embarcadero at Folsom
+51,11,1895,Embarcadero at Folsom
+51,12,1580,Embarcadero at Folsom
+51,1,1913,Embarcadero at Folsom
+51,2,1577,Embarcadero at Folsom
+51,3,1680,Embarcadero at Folsom
+51,4,1457,Embarcadero at Folsom
+51,5,1572,Embarcadero at Folsom
+51,6,1316,Embarcadero at Folsom
+51,7,1527,Embarcadero at Folsom
+51,8,1680,Embarcadero at Folsom
+54,9,841,Embarcadero at Bryant
+54,10,854,Embarcadero at Bryant
+54,11,1093,Embarcadero at Bryant
+54,12,1327,Embarcadero at Bryant
+54,1,1678,Embarcadero at Bryant
+54,2,1218,Embarcadero at Bryant
+54,3,1355,Embarcadero at Bryant
+54,4,1419,Embarcadero at Bryant
+54,5,1275,Embarcadero at Bryant
+54,6,1067,Embarcadero at Bryant
+54,7,883,Embarcadero at Bryant
+54,8,906,Embarcadero at Bryant
+55,9,1315,Temporary Transbay Terminal (Howard at Beale)
+55,10,1439,Temporary Transbay Terminal (Howard at Beale)
+55,11,1224,Temporary Transbay Terminal (Howard at Beale)
+55,12,879,Temporary Transbay Terminal (Howard at Beale)
+55,1,1185,Temporary Transbay Terminal (Howard at Beale)
+55,2,1125,Temporary Transbay Terminal (Howard at Beale)
+55,3,1306,Temporary Transbay Terminal (Howard at Beale)
+55,4,1217,Temporary Transbay Terminal (Howard at Beale)
+55,5,1430,Temporary Transbay Terminal (Howard at Beale)
+55,6,1361,Temporary Transbay Terminal (Howard at Beale)
+55,7,1330,Temporary Transbay Terminal (Howard at Beale)
+55,8,1465,Temporary Transbay Terminal (Howard at Beale)
+56,9,888,Beale at Market
+56,10,1123,Beale at Market
+56,11,935,Beale at Market
+56,12,876,Beale at Market
+56,1,880,Beale at Market
+56,2,749,Beale at Market
+56,3,891,Beale at Market
+56,4,904,Beale at Market
+56,5,741,Beale at Market
+56,6,890,Beale at Market
+56,7,827,Beale at Market
+56,8,819,Beale at Market
+57,9,775,5th at Howard
+57,10,878,5th at Howard
+57,11,674,5th at Howard
+57,12,579,5th at Howard
+57,1,774,5th at Howard
+57,2,874,5th at Howard
+57,3,869,5th at Howard
+57,4,826,5th at Howard
+57,5,769,5th at Howard
+57,6,789,5th at Howard
+57,7,709,5th at Howard
+57,8,698,5th at Howard
+58,9,320,San Francisco City Hall
+58,10,320,San Francisco City Hall
+58,11,198,San Francisco City Hall
+58,12,246,San Francisco City Hall
+58,1,224,San Francisco City Hall
+58,2,213,San Francisco City Hall
+58,3,260,San Francisco City Hall
+58,4,253,San Francisco City Hall
+58,5,281,San Francisco City Hall
+58,6,173,San Francisco City Hall
+58,7,264,San Francisco City Hall
+58,8,258,San Francisco City Hall
+59,9,372,Golden Gate at Polk
+59,10,385,Golden Gate at Polk
+59,11,286,Golden Gate at Polk
+59,12,209,Golden Gate at Polk
+59,1,277,Golden Gate at Polk
+59,2,236,Golden Gate at Polk
+59,3,378,Golden Gate at Polk
+59,4,358,Golden Gate at Polk
+59,5,378,Golden Gate at Polk
+59,6,377,Golden Gate at Polk
+59,7,432,Golden Gate at Polk
+59,8,350,Golden Gate at Polk
+60,9,1504,Embarcadero at Sansome
+60,10,1708,Embarcadero at Sansome
+60,11,1433,Embarcadero at Sansome
+60,12,1481,Embarcadero at Sansome
+60,1,1875,Embarcadero at Sansome
+60,2,1674,Embarcadero at Sansome
+60,3,1954,Embarcadero at Sansome
+60,4,1957,Embarcadero at Sansome
+60,5,2161,Embarcadero at Sansome
+60,6,1831,Embarcadero at Sansome
+60,7,1643,Embarcadero at Sansome
+60,8,1806,Embarcadero at Sansome
+61,9,2388,2nd at Townsend
+61,10,2659,2nd at Townsend
+61,11,2035,2nd at Townsend
+61,12,1596,2nd at Townsend
+61,1,1475,2nd at Townsend
+61,2,1555,2nd at Townsend
+61,3,1964,2nd at Townsend
+61,4,1793,2nd at Townsend
+61,5,1659,2nd at Townsend
+61,6,1742,2nd at Townsend
+61,7,1842,2nd at Townsend
+61,8,2089,2nd at Townsend
+62,9,727,2nd at Folsom
+62,10,935,2nd at Folsom
+62,11,775,2nd at Folsom
+62,12,684,2nd at Folsom
+62,1,775,2nd at Folsom
+62,2,779,2nd at Folsom
+62,3,1208,2nd at Folsom
+62,4,993,2nd at Folsom
+62,5,766,2nd at Folsom
+62,6,887,2nd at Folsom
+62,7,884,2nd at Folsom
+62,8,783,2nd at Folsom
+63,9,695,Howard at 2nd
+63,10,686,Howard at 2nd
+63,11,489,Howard at 2nd
+63,12,403,Howard at 2nd
+63,1,592,Howard at 2nd
+63,2,611,Howard at 2nd
+63,3,806,Howard at 2nd
+63,4,811,Howard at 2nd
+63,5,726,Howard at 2nd
+63,6,688,Howard at 2nd
+63,7,702,Howard at 2nd
+63,8,722,Howard at 2nd
+64,9,1102,2nd at South Park
+64,10,1266,2nd at South Park
+64,11,1081,2nd at South Park
+64,12,1134,2nd at South Park
+64,1,1537,2nd at South Park
+64,2,1229,2nd at South Park
+64,3,1470,2nd at South Park
+64,4,1476,2nd at South Park
+64,5,1433,2nd at South Park
+64,6,1220,2nd at South Park
+64,7,943,2nd at South Park
+64,8,1079,2nd at South Park
+65,9,1343,Townsend at 7th
+65,10,1516,Townsend at 7th
+65,11,1304,Townsend at 7th
+65,12,985,Townsend at 7th
+65,1,1482,Townsend at 7th
+65,2,1384,Townsend at 7th
+65,3,1782,Townsend at 7th
+65,4,1651,Townsend at 7th
+65,5,1553,Townsend at 7th
+65,6,1632,Townsend at 7th
+65,7,1439,Townsend at 7th
+65,8,1464,Townsend at 7th
+66,9,851,South Van Ness at Market
+66,10,889,South Van Ness at Market
+66,11,570,South Van Ness at Market
+66,12,468,South Van Ness at Market
+66,1,505,South Van Ness at Market
+66,2,405,South Van Ness at Market
+66,3,560,South Van Ness at Market
+66,4,560,South Van Ness at Market
+66,5,523,South Van Ness at Market
+66,6,546,South Van Ness at Market
+66,7,565,South Van Ness at Market
+66,8,569,South Van Ness at Market
+67,9,1070,Market at 10th
+67,10,1287,Market at 10th
+67,11,979,Market at 10th
+67,12,654,Market at 10th
+67,1,992,Market at 10th
+67,2,939,Market at 10th
+67,3,1090,Market at 10th
+67,4,1075,Market at 10th
+67,5,1048,Market at 10th
+67,6,1025,Market at 10th
+67,7,982,Market at 10th
+67,8,951,Market at 10th
+68,9,763,Yerba Buena Center of the Arts (3rd @ Howard)
+68,10,737,Yerba Buena Center of the Arts (3rd @ Howard)
+68,11,665,Yerba Buena Center of the Arts (3rd @ Howard)
+68,12,528,Yerba Buena Center of the Arts (3rd @ Howard)
+68,1,651,Yerba Buena Center of the Arts (3rd @ Howard)
+68,2,693,Yerba Buena Center of the Arts (3rd @ Howard)
+68,3,751,Yerba Buena Center of the Arts (3rd @ Howard)
+68,4,687,Yerba Buena Center of the Arts (3rd @ Howard)
+68,5,715,Yerba Buena Center of the Arts (3rd @ Howard)
+68,6,630,Yerba Buena Center of the Arts (3rd @ Howard)
+68,7,552,Yerba Buena Center of the Arts (3rd @ Howard)
+68,8,621,Yerba Buena Center of the Arts (3rd @ Howard)
+69,9,2560,San Francisco Caltrain 2 (330 Townsend)
+69,10,3071,San Francisco Caltrain 2 (330 Townsend)
+69,11,2378,San Francisco Caltrain 2 (330 Townsend)
+69,12,2050,San Francisco Caltrain 2 (330 Townsend)
+69,1,2150,San Francisco Caltrain 2 (330 Townsend)
+69,2,2198,San Francisco Caltrain 2 (330 Townsend)
+69,3,2841,San Francisco Caltrain 2 (330 Townsend)
+69,4,2916,San Francisco Caltrain 2 (330 Townsend)
+69,5,2892,San Francisco Caltrain 2 (330 Townsend)
+69,6,2856,San Francisco Caltrain 2 (330 Townsend)
+69,7,3032,San Francisco Caltrain 2 (330 Townsend)
+69,8,2845,San Francisco Caltrain 2 (330 Townsend)
+70,9,3448,San Francisco Caltrain (Townsend at 4th)
+70,10,3988,San Francisco Caltrain (Townsend at 4th)
+70,11,3564,San Francisco Caltrain (Townsend at 4th)
+70,12,2884,San Francisco Caltrain (Townsend at 4th)
+70,1,3762,San Francisco Caltrain (Townsend at 4th)
+70,2,3377,San Francisco Caltrain (Townsend at 4th)
+70,3,3686,San Francisco Caltrain (Townsend at 4th)
+70,4,3434,San Francisco Caltrain (Townsend at 4th)
+70,5,3128,San Francisco Caltrain (Townsend at 4th)
+70,6,2991,San Francisco Caltrain (Townsend at 4th)
+70,7,3057,San Francisco Caltrain (Townsend at 4th)
+70,8,2836,San Francisco Caltrain (Townsend at 4th)
+71,9,743,Powell at Post (Union Square)
+71,10,801,Powell at Post (Union Square)
+71,11,777,Powell at Post (Union Square)
+71,12,1428,Powell at Post (Union Square)
+71,1,1508,Powell at Post (Union Square)
+71,2,865,Powell at Post (Union Square)
+71,3,1303,Powell at Post (Union Square)
+71,4,1200,Powell at Post (Union Square)
+71,5,1525,Powell at Post (Union Square)
+71,6,1058,Powell at Post (Union Square)
+71,7,1005,Powell at Post (Union Square)
+71,8,868,Powell at Post (Union Square)
+72,9,865,Civic Center BART (7th at Market)
+72,10,889,Civic Center BART (7th at Market)
+72,11,725,Civic Center BART (7th at Market)
+72,12,705,Civic Center BART (7th at Market)
+72,1,716,Civic Center BART (7th at Market)
+72,2,682,Civic Center BART (7th at Market)
+72,3,944,Civic Center BART (7th at Market)
+72,4,910,Civic Center BART (7th at Market)
+72,5,794,Civic Center BART (7th at Market)
+72,6,709,Civic Center BART (7th at Market)
+72,7,671,Civic Center BART (7th at Market)
+72,8,655,Civic Center BART (7th at Market)
+73,9,742,Grant Avenue at Columbus Avenue
+73,10,944,Grant Avenue at Columbus Avenue
+73,11,728,Grant Avenue at Columbus Avenue
+73,12,640,Grant Avenue at Columbus Avenue
+73,1,777,Grant Avenue at Columbus Avenue
+73,2,734,Grant Avenue at Columbus Avenue
+73,3,940,Grant Avenue at Columbus Avenue
+73,4,901,Grant Avenue at Columbus Avenue
+73,5,893,Grant Avenue at Columbus Avenue
+73,6,753,Grant Avenue at Columbus Avenue
+73,7,761,Grant Avenue at Columbus Avenue
+73,8,746,Grant Avenue at Columbus Avenue
+74,9,1211,Steuart at Market
+74,10,1397,Steuart at Market
+74,11,1094,Steuart at Market
+74,12,756,Steuart at Market
+74,1,1143,Steuart at Market
+74,2,1114,Steuart at Market
+74,3,1328,Steuart at Market
+74,4,1282,Steuart at Market
+74,5,1142,Steuart at Market
+74,6,1324,Steuart at Market
+74,7,1343,Steuart at Market
+74,8,1436,Steuart at Market
+75,9,673,Mechanics Plaza (Market at Battery)
+75,10,732,Mechanics Plaza (Market at Battery)
+75,11,538,Mechanics Plaza (Market at Battery)
+75,12,363,Mechanics Plaza (Market at Battery)
+75,1,521,Mechanics Plaza (Market at Battery)
+75,2,485,Mechanics Plaza (Market at Battery)
+75,3,658,Mechanics Plaza (Market at Battery)
+75,4,633,Mechanics Plaza (Market at Battery)
+75,5,670,Mechanics Plaza (Market at Battery)
+75,6,666,Mechanics Plaza (Market at Battery)
+75,7,621,Mechanics Plaza (Market at Battery)
+75,8,597,Mechanics Plaza (Market at Battery)
+76,9,1129,Market at 4th
+76,10,1124,Market at 4th
+76,11,922,Market at 4th
+76,12,825,Market at 4th
+76,1,841,Market at 4th
+76,2,891,Market at 4th
+76,3,965,Market at 4th
+76,4,890,Market at 4th
+76,5,864,Market at 4th
+76,6,895,Market at 4th
+76,7,908,Market at 4th
+76,8,936,Market at 4th
+77,9,1335,Market at Sansome
+77,10,1496,Market at Sansome
+77,11,1048,Market at Sansome
+77,12,820,Market at Sansome
+77,1,1332,Market at Sansome
+77,2,1053,Market at Sansome
+77,3,1339,Market at Sansome
+77,4,1305,Market at Sansome
+77,5,1255,Market at Sansome
+77,6,1261,Market at Sansome
+77,7,1196,Market at Sansome
+77,8,1296,Market at Sansome
+80,9,735,Santa Clara County Civic Center
+80,10,406,Santa Clara County Civic Center
+80,11,508,Santa Clara County Civic Center
+80,12,384,Santa Clara County Civic Center
+80,1,386,Santa Clara County Civic Center
+80,2,349,Santa Clara County Civic Center
+80,3,120,Santa Clara County Civic Center
+80,4,121,Santa Clara County Civic Center
+80,5,158,Santa Clara County Civic Center
+80,6,235,Santa Clara County Civic Center
+80,7,227,Santa Clara County Civic Center
+80,8,329,Santa Clara County Civic Center
+82,9,802,Broadway St at Battery St
+82,10,876,Broadway St at Battery St
+82,11,661,Broadway St at Battery St
+82,12,572,Broadway St at Battery St
+82,1,827,Broadway St at Battery St
+82,2,778,Broadway St at Battery St
+82,3,996,Broadway St at Battery St
+82,4,888,Broadway St at Battery St
+82,5,874,Broadway St at Battery St
+82,6,940,Broadway St at Battery St
+82,7,672,Broadway St at Battery St
+82,8,665,Broadway St at Battery St
+83,9,128,Mezes Park
+83,10,44,Mezes Park
+83,11,119,Mezes Park
+83,12,97,Mezes Park
+83,1,94,Mezes Park
+83,2,44,Mezes Park
+83,3,152,Mezes Park
+83,4,197,Mezes Park
+83,5,332,Mezes Park
+83,6,91,Mezes Park
+83,7,375,Mezes Park
+83,8,120,Mezes Park
+84,9,200,Ryland Park
+84,10,295,Ryland Park
+84,11,244,Ryland Park
+84,12,85,Ryland Park
+84,1,171,Ryland Park
+84,2,75,Ryland Park
+84,3,106,Ryland Park
+84,4,230,Ryland Park
+84,5,250,Ryland Park
+84,6,113,Ryland Park
+84,7,98,Ryland Park
+84,8,107,Ryland Park
