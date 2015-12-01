@@ -1,0 +1,1483 @@
+start_station_id,start_station_name,end_station_id,end_station_name,total_trips_customer
+2,San Jose Diridon Caltrain Station,2,San Jose Diridon Caltrain Station,35
+2,San Jose Diridon Caltrain Station,3,San Jose Civic Center,36
+2,San Jose Diridon Caltrain Station,4,Santa Clara at Almaden,9
+2,San Jose Diridon Caltrain Station,5,Adobe on Almaden,8
+2,San Jose Diridon Caltrain Station,6,San Pedro Square,31
+2,San Jose Diridon Caltrain Station,7,Paseo de San Antonio,9
+2,San Jose Diridon Caltrain Station,8,San Salvador at 1st,15
+2,San Jose Diridon Caltrain Station,9,Japantown,9
+2,San Jose Diridon Caltrain Station,10,San Jose City Hall,11
+2,San Jose Diridon Caltrain Station,11,MLK Library,15
+2,San Jose Diridon Caltrain Station,12,SJSU 4th at San Carlos,10
+2,San Jose Diridon Caltrain Station,13,St James Park,10
+2,San Jose Diridon Caltrain Station,14,Arena Green / SAP Center,5
+2,San Jose Diridon Caltrain Station,16,SJSU - San Salvador at 9th,11
+2,San Jose Diridon Caltrain Station,84,Ryland Park,6
+2,San Jose Diridon Caltrain Station,80,Santa Clara County Civic Center,8
+2,San Jose Diridon Caltrain Station,28,Mountain View Caltrain Station,2
+3,San Jose Civic Center,2,San Jose Diridon Caltrain Station,25
+3,San Jose Civic Center,3,San Jose Civic Center,182
+3,San Jose Civic Center,4,Santa Clara at Almaden,16
+3,San Jose Civic Center,5,Adobe on Almaden,8
+3,San Jose Civic Center,6,San Pedro Square,36
+3,San Jose Civic Center,7,Paseo de San Antonio,14
+3,San Jose Civic Center,8,San Salvador at 1st,6
+3,San Jose Civic Center,9,Japantown,11
+3,San Jose Civic Center,10,San Jose City Hall,7
+3,San Jose Civic Center,11,MLK Library,11
+3,San Jose Civic Center,12,SJSU 4th at San Carlos,21
+3,San Jose Civic Center,13,St James Park,4
+3,San Jose Civic Center,14,Arena Green / SAP Center,12
+3,San Jose Civic Center,84,Ryland Park,9
+3,San Jose Civic Center,16,SJSU - San Salvador at 9th,7
+3,San Jose Civic Center,80,Santa Clara County Civic Center,6
+3,San Jose Civic Center,28,Mountain View Caltrain Station,2
+4,Santa Clara at Almaden,2,San Jose Diridon Caltrain Station,22
+4,Santa Clara at Almaden,3,San Jose Civic Center,3
+4,Santa Clara at Almaden,4,Santa Clara at Almaden,51
+4,Santa Clara at Almaden,5,Adobe on Almaden,3
+4,Santa Clara at Almaden,6,San Pedro Square,5
+4,Santa Clara at Almaden,7,Paseo de San Antonio,4
+4,Santa Clara at Almaden,8,San Salvador at 1st,3
+4,Santa Clara at Almaden,9,Japantown,2
+4,Santa Clara at Almaden,10,San Jose City Hall,8
+4,Santa Clara at Almaden,11,MLK Library,5
+4,Santa Clara at Almaden,12,SJSU 4th at San Carlos,7
+4,Santa Clara at Almaden,13,St James Park,3
+4,Santa Clara at Almaden,14,Arena Green / SAP Center,5
+4,Santa Clara at Almaden,16,SJSU - San Salvador at 9th,4
+4,Santa Clara at Almaden,80,Santa Clara County Civic Center,5
+5,Adobe on Almaden,2,San Jose Diridon Caltrain Station,15
+5,Adobe on Almaden,3,San Jose Civic Center,8
+5,Adobe on Almaden,4,Santa Clara at Almaden,4
+5,Adobe on Almaden,5,Adobe on Almaden,18
+5,Adobe on Almaden,6,San Pedro Square,6
+5,Adobe on Almaden,7,Paseo de San Antonio,3
+5,Adobe on Almaden,8,San Salvador at 1st,5
+5,Adobe on Almaden,9,Japantown,4
+5,Adobe on Almaden,10,San Jose City Hall,9
+5,Adobe on Almaden,11,MLK Library,6
+5,Adobe on Almaden,12,SJSU 4th at San Carlos,2
+5,Adobe on Almaden,13,St James Park,5
+5,Adobe on Almaden,14,Arena Green / SAP Center,6
+5,Adobe on Almaden,84,Ryland Park,2
+5,Adobe on Almaden,16,SJSU - San Salvador at 9th,5
+5,Adobe on Almaden,80,Santa Clara County Civic Center,4
+6,San Pedro Square,2,San Jose Diridon Caltrain Station,24
+6,San Pedro Square,3,San Jose Civic Center,43
+6,San Pedro Square,4,Santa Clara at Almaden,1
+6,San Pedro Square,5,Adobe on Almaden,5
+6,San Pedro Square,6,San Pedro Square,67
+6,San Pedro Square,7,Paseo de San Antonio,12
+6,San Pedro Square,8,San Salvador at 1st,8
+6,San Pedro Square,9,Japantown,30
+6,San Pedro Square,10,San Jose City Hall,10
+6,San Pedro Square,11,MLK Library,15
+6,San Pedro Square,12,SJSU 4th at San Carlos,4
+6,San Pedro Square,13,St James Park,6
+6,San Pedro Square,14,Arena Green / SAP Center,7
+6,San Pedro Square,16,SJSU - San Salvador at 9th,14
+6,San Pedro Square,84,Ryland Park,15
+6,San Pedro Square,80,Santa Clara County Civic Center,5
+7,Paseo de San Antonio,2,San Jose Diridon Caltrain Station,21
+7,Paseo de San Antonio,3,San Jose Civic Center,19
+7,Paseo de San Antonio,4,Santa Clara at Almaden,4
+7,Paseo de San Antonio,5,Adobe on Almaden,7
+7,Paseo de San Antonio,6,San Pedro Square,9
+7,Paseo de San Antonio,7,Paseo de San Antonio,51
+7,Paseo de San Antonio,8,San Salvador at 1st,12
+7,Paseo de San Antonio,9,Japantown,23
+7,Paseo de San Antonio,10,San Jose City Hall,4
+7,Paseo de San Antonio,11,MLK Library,3
+7,Paseo de San Antonio,12,SJSU 4th at San Carlos,2
+7,Paseo de San Antonio,13,St James Park,7
+7,Paseo de San Antonio,14,Arena Green / SAP Center,11
+7,Paseo de San Antonio,84,Ryland Park,9
+7,Paseo de San Antonio,16,SJSU - San Salvador at 9th,18
+7,Paseo de San Antonio,80,Santa Clara County Civic Center,1
+8,San Salvador at 1st,16,SJSU - San Salvador at 9th,5
+8,San Salvador at 1st,2,San Jose Diridon Caltrain Station,6
+8,San Salvador at 1st,3,San Jose Civic Center,9
+8,San Salvador at 1st,4,Santa Clara at Almaden,4
+8,San Salvador at 1st,5,Adobe on Almaden,4
+8,San Salvador at 1st,6,San Pedro Square,19
+8,San Salvador at 1st,7,Paseo de San Antonio,8
+8,San Salvador at 1st,8,San Salvador at 1st,28
+8,San Salvador at 1st,9,Japantown,6
+8,San Salvador at 1st,10,San Jose City Hall,4
+8,San Salvador at 1st,11,MLK Library,1
+8,San Salvador at 1st,12,SJSU 4th at San Carlos,2
+8,San Salvador at 1st,13,St James Park,4
+8,San Salvador at 1st,14,Arena Green / SAP Center,2
+9,Japantown,2,San Jose Diridon Caltrain Station,11
+9,Japantown,3,San Jose Civic Center,26
+9,Japantown,4,Santa Clara at Almaden,1
+9,Japantown,5,Adobe on Almaden,8
+9,Japantown,6,San Pedro Square,26
+9,Japantown,7,Paseo de San Antonio,24
+9,Japantown,8,San Salvador at 1st,17
+9,Japantown,9,Japantown,37
+9,Japantown,10,San Jose City Hall,13
+9,Japantown,11,MLK Library,9
+9,Japantown,12,SJSU 4th at San Carlos,1
+9,Japantown,13,St James Park,9
+9,Japantown,14,Arena Green / SAP Center,9
+9,Japantown,16,SJSU - San Salvador at 9th,2
+9,Japantown,84,Ryland Park,4
+9,Japantown,80,Santa Clara County Civic Center,2
+10,San Jose City Hall,2,San Jose Diridon Caltrain Station,5
+10,San Jose City Hall,3,San Jose Civic Center,9
+10,San Jose City Hall,4,Santa Clara at Almaden,6
+10,San Jose City Hall,5,Adobe on Almaden,4
+10,San Jose City Hall,6,San Pedro Square,7
+10,San Jose City Hall,7,Paseo de San Antonio,3
+10,San Jose City Hall,8,San Salvador at 1st,8
+10,San Jose City Hall,9,Japantown,12
+10,San Jose City Hall,10,San Jose City Hall,25
+10,San Jose City Hall,11,MLK Library,4
+10,San Jose City Hall,12,SJSU 4th at San Carlos,2
+10,San Jose City Hall,13,St James Park,1
+10,San Jose City Hall,14,Arena Green / SAP Center,1
+10,San Jose City Hall,84,Ryland Park,2
+10,San Jose City Hall,16,SJSU - San Salvador at 9th,14
+10,San Jose City Hall,80,Santa Clara County Civic Center,3
+11,MLK Library,2,San Jose Diridon Caltrain Station,9
+11,MLK Library,3,San Jose Civic Center,2
+11,MLK Library,4,Santa Clara at Almaden,4
+11,MLK Library,5,Adobe on Almaden,2
+11,MLK Library,6,San Pedro Square,16
+11,MLK Library,7,Paseo de San Antonio,4
+11,MLK Library,8,San Salvador at 1st,2
+11,MLK Library,76,Market at 4th,1
+11,MLK Library,9,Japantown,10
+11,MLK Library,10,San Jose City Hall,6
+11,MLK Library,11,MLK Library,45
+11,MLK Library,12,SJSU 4th at San Carlos,5
+11,MLK Library,13,St James Park,9
+11,MLK Library,14,Arena Green / SAP Center,2
+11,MLK Library,84,Ryland Park,5
+11,MLK Library,16,SJSU - San Salvador at 9th,8
+11,MLK Library,80,Santa Clara County Civic Center,4
+11,MLK Library,28,Mountain View Caltrain Station,2
+12,SJSU 4th at San Carlos,2,San Jose Diridon Caltrain Station,8
+12,SJSU 4th at San Carlos,3,San Jose Civic Center,11
+12,SJSU 4th at San Carlos,4,Santa Clara at Almaden,5
+12,SJSU 4th at San Carlos,5,Adobe on Almaden,2
+12,SJSU 4th at San Carlos,6,San Pedro Square,6
+12,SJSU 4th at San Carlos,7,Paseo de San Antonio,4
+12,SJSU 4th at San Carlos,8,San Salvador at 1st,12
+12,SJSU 4th at San Carlos,9,Japantown,4
+12,SJSU 4th at San Carlos,10,San Jose City Hall,10
+12,SJSU 4th at San Carlos,11,MLK Library,7
+12,SJSU 4th at San Carlos,12,SJSU 4th at San Carlos,22
+12,SJSU 4th at San Carlos,13,St James Park,7
+12,SJSU 4th at San Carlos,14,Arena Green / SAP Center,6
+12,SJSU 4th at San Carlos,84,Ryland Park,4
+12,SJSU 4th at San Carlos,16,SJSU - San Salvador at 9th,6
+13,St James Park,2,San Jose Diridon Caltrain Station,10
+13,St James Park,3,San Jose Civic Center,1
+13,St James Park,4,Santa Clara at Almaden,5
+13,St James Park,5,Adobe on Almaden,1
+13,St James Park,6,San Pedro Square,3
+13,St James Park,7,Paseo de San Antonio,8
+13,St James Park,8,San Salvador at 1st,5
+13,St James Park,9,Japantown,13
+13,St James Park,10,San Jose City Hall,5
+13,St James Park,11,MLK Library,11
+13,St James Park,12,SJSU 4th at San Carlos,6
+13,St James Park,13,St James Park,23
+13,St James Park,14,Arena Green / SAP Center,1
+13,St James Park,16,SJSU - San Salvador at 9th,4
+13,St James Park,84,Ryland Park,4
+13,St James Park,80,Santa Clara County Civic Center,3
+14,Arena Green / SAP Center,16,SJSU - San Salvador at 9th,2
+14,Arena Green / SAP Center,84,Ryland Park,4
+14,Arena Green / SAP Center,2,San Jose Diridon Caltrain Station,1
+14,Arena Green / SAP Center,3,San Jose Civic Center,14
+14,Arena Green / SAP Center,4,Santa Clara at Almaden,3
+14,Arena Green / SAP Center,80,Santa Clara County Civic Center,8
+14,Arena Green / SAP Center,5,Adobe on Almaden,3
+14,Arena Green / SAP Center,6,San Pedro Square,9
+14,Arena Green / SAP Center,7,Paseo de San Antonio,6
+14,Arena Green / SAP Center,8,San Salvador at 1st,8
+14,Arena Green / SAP Center,9,Japantown,8
+14,Arena Green / SAP Center,11,MLK Library,5
+14,Arena Green / SAP Center,12,SJSU 4th at San Carlos,7
+14,Arena Green / SAP Center,13,St James Park,2
+14,Arena Green / SAP Center,14,Arena Green / SAP Center,76
+16,SJSU - San Salvador at 9th,16,SJSU - San Salvador at 9th,26
+16,SJSU - San Salvador at 9th,2,San Jose Diridon Caltrain Station,12
+16,SJSU - San Salvador at 9th,3,San Jose Civic Center,6
+16,SJSU - San Salvador at 9th,4,Santa Clara at Almaden,1
+16,SJSU - San Salvador at 9th,5,Adobe on Almaden,1
+16,SJSU - San Salvador at 9th,6,San Pedro Square,10
+16,SJSU - San Salvador at 9th,7,Paseo de San Antonio,15
+16,SJSU - San Salvador at 9th,8,San Salvador at 1st,5
+16,SJSU - San Salvador at 9th,9,Japantown,2
+16,SJSU - San Salvador at 9th,10,San Jose City Hall,5
+16,SJSU - San Salvador at 9th,11,MLK Library,9
+16,SJSU - San Salvador at 9th,12,SJSU 4th at San Carlos,7
+16,SJSU - San Salvador at 9th,13,St James Park,7
+21,Franklin at Maple,34,Palo Alto Caltrain Station,1
+21,Franklin at Maple,35,University and Emerson,7
+21,Franklin at Maple,21,Franklin at Maple,8
+21,Franklin at Maple,83,Mezes Park,2
+21,Franklin at Maple,22,Redwood City Caltrain Station,2
+21,Franklin at Maple,37,Cowper at University,2
+21,Franklin at Maple,25,Stanford in Redwood City,5
+21,Franklin at Maple,26,Redwood City Medical Center,1
+23,San Mateo County Center,21,Franklin at Maple,1
+23,San Mateo County Center,23,San Mateo County Center,12
+23,San Mateo County Center,83,Mezes Park,3
+23,San Mateo County Center,22,Redwood City Caltrain Station,3
+23,San Mateo County Center,25,Stanford in Redwood City,4
+23,San Mateo County Center,26,Redwood City Medical Center,3
+22,Redwood City Caltrain Station,34,Palo Alto Caltrain Station,6
+22,Redwood City Caltrain Station,35,University and Emerson,3
+22,Redwood City Caltrain Station,21,Franklin at Maple,5
+22,Redwood City Caltrain Station,83,Mezes Park,2
+22,Redwood City Caltrain Station,23,San Mateo County Center,3
+22,Redwood City Caltrain Station,22,Redwood City Caltrain Station,43
+22,Redwood City Caltrain Station,25,Stanford in Redwood City,43
+22,Redwood City Caltrain Station,24,Redwood City Public Library,3
+22,Redwood City Caltrain Station,26,Redwood City Medical Center,10
+22,Redwood City Caltrain Station,28,Mountain View Caltrain Station,1
+25,Stanford in Redwood City,35,University and Emerson,3
+25,Stanford in Redwood City,21,Franklin at Maple,1
+25,Stanford in Redwood City,36,California Ave Caltrain Station,1
+25,Stanford in Redwood City,23,San Mateo County Center,2
+25,Stanford in Redwood City,37,Cowper at University,1
+25,Stanford in Redwood City,22,Redwood City Caltrain Station,37
+25,Stanford in Redwood City,25,Stanford in Redwood City,17
+25,Stanford in Redwood City,24,Redwood City Public Library,14
+25,Stanford in Redwood City,26,Redwood City Medical Center,1
+24,Redwood City Public Library,34,Palo Alto Caltrain Station,1
+24,Redwood City Public Library,35,University and Emerson,2
+24,Redwood City Public Library,21,Franklin at Maple,2
+24,Redwood City Public Library,83,Mezes Park,1
+24,Redwood City Public Library,22,Redwood City Caltrain Station,6
+24,Redwood City Public Library,25,Stanford in Redwood City,10
+24,Redwood City Public Library,24,Redwood City Public Library,18
+27,Mountain View City Hall,32,Castro Street and El Camino Real,10
+27,Mountain View City Hall,33,Rengstorff Avenue / California Street,16
+27,Mountain View City Hall,38,Park at Olive,2
+27,Mountain View City Hall,80,Santa Clara County Civic Center,3
+27,Mountain View City Hall,36,California Ave Caltrain Station,4
+27,Mountain View City Hall,27,Mountain View City Hall,53
+27,Mountain View City Hall,29,San Antonio Caltrain Station,4
+27,Mountain View City Hall,28,Mountain View Caltrain Station,37
+27,Mountain View City Hall,31,San Antonio Shopping Center,25
+27,Mountain View City Hall,30,Evelyn Park and Ride,4
+26,Redwood City Medical Center,23,San Mateo County Center,2
+26,Redwood City Medical Center,22,Redwood City Caltrain Station,7
+26,Redwood City Medical Center,25,Stanford in Redwood City,1
+26,Redwood City Medical Center,24,Redwood City Public Library,1
+26,Redwood City Medical Center,26,Redwood City Medical Center,5
+29,San Antonio Caltrain Station,34,Palo Alto Caltrain Station,9
+29,San Antonio Caltrain Station,35,University and Emerson,8
+29,San Antonio Caltrain Station,32,Castro Street and El Camino Real,4
+29,San Antonio Caltrain Station,3,San Jose Civic Center,1
+29,San Antonio Caltrain Station,33,Rengstorff Avenue / California Street,10
+29,San Antonio Caltrain Station,38,Park at Olive,19
+29,San Antonio Caltrain Station,36,California Ave Caltrain Station,14
+29,San Antonio Caltrain Station,37,Cowper at University,1
+29,San Antonio Caltrain Station,76,Market at 4th,2
+29,San Antonio Caltrain Station,21,Franklin at Maple,1
+29,San Antonio Caltrain Station,25,Stanford in Redwood City,2
+29,San Antonio Caltrain Station,27,Mountain View City Hall,8
+29,San Antonio Caltrain Station,29,San Antonio Caltrain Station,47
+29,San Antonio Caltrain Station,28,Mountain View Caltrain Station,27
+29,San Antonio Caltrain Station,31,San Antonio Shopping Center,37
+28,Mountain View Caltrain Station,34,Palo Alto Caltrain Station,2
+28,Mountain View Caltrain Station,35,University and Emerson,4
+28,Mountain View Caltrain Station,32,Castro Street and El Camino Real,35
+28,Mountain View Caltrain Station,33,Rengstorff Avenue / California Street,33
+28,Mountain View Caltrain Station,38,Park at Olive,8
+28,Mountain View Caltrain Station,36,California Ave Caltrain Station,1
+28,Mountain View Caltrain Station,9,Japantown,1
+28,Mountain View Caltrain Station,27,Mountain View City Hall,25
+28,Mountain View Caltrain Station,29,San Antonio Caltrain Station,32
+28,Mountain View Caltrain Station,28,Mountain View Caltrain Station,193
+28,Mountain View Caltrain Station,31,San Antonio Shopping Center,13
+28,Mountain View Caltrain Station,30,Evelyn Park and Ride,46
+31,San Antonio Shopping Center,34,Palo Alto Caltrain Station,2
+31,San Antonio Shopping Center,35,University and Emerson,2
+31,San Antonio Shopping Center,32,Castro Street and El Camino Real,7
+31,San Antonio Shopping Center,33,Rengstorff Avenue / California Street,6
+31,San Antonio Shopping Center,38,Park at Olive,3
+31,San Antonio Shopping Center,36,California Ave Caltrain Station,2
+31,San Antonio Shopping Center,27,Mountain View City Hall,18
+31,San Antonio Shopping Center,29,San Antonio Caltrain Station,20
+31,San Antonio Shopping Center,28,Mountain View Caltrain Station,17
+31,San Antonio Shopping Center,31,San Antonio Shopping Center,23
+30,Evelyn Park and Ride,32,Castro Street and El Camino Real,7
+30,Evelyn Park and Ride,33,Rengstorff Avenue / California Street,4
+30,Evelyn Park and Ride,27,Mountain View City Hall,15
+30,Evelyn Park and Ride,29,San Antonio Caltrain Station,1
+30,Evelyn Park and Ride,28,Mountain View Caltrain Station,37
+30,Evelyn Park and Ride,14,Arena Green / SAP Center,1
+30,Evelyn Park and Ride,30,Evelyn Park and Ride,65
+34,Palo Alto Caltrain Station,34,Palo Alto Caltrain Station,136
+34,Palo Alto Caltrain Station,35,University and Emerson,43
+34,Palo Alto Caltrain Station,33,Rengstorff Avenue / California Street,3
+34,Palo Alto Caltrain Station,38,Park at Olive,17
+34,Palo Alto Caltrain Station,36,California Ave Caltrain Station,43
+34,Palo Alto Caltrain Station,37,Cowper at University,45
+34,Palo Alto Caltrain Station,21,Franklin at Maple,1
+34,Palo Alto Caltrain Station,22,Redwood City Caltrain Station,1
+34,Palo Alto Caltrain Station,25,Stanford in Redwood City,1
+34,Palo Alto Caltrain Station,24,Redwood City Public Library,1
+34,Palo Alto Caltrain Station,27,Mountain View City Hall,1
+34,Palo Alto Caltrain Station,29,San Antonio Caltrain Station,3
+34,Palo Alto Caltrain Station,28,Mountain View Caltrain Station,8
+34,Palo Alto Caltrain Station,31,San Antonio Shopping Center,3
+35,University and Emerson,34,Palo Alto Caltrain Station,23
+35,University and Emerson,35,University and Emerson,323
+35,University and Emerson,32,Castro Street and El Camino Real,1
+35,University and Emerson,70,San Francisco Caltrain (Townsend at 4th),3
+35,University and Emerson,33,Rengstorff Avenue / California Street,1
+35,University and Emerson,38,Park at Olive,11
+35,University and Emerson,36,California Ave Caltrain Station,40
+35,University and Emerson,37,Cowper at University,18
+35,University and Emerson,21,Franklin at Maple,1
+35,University and Emerson,23,San Mateo County Center,2
+35,University and Emerson,24,Redwood City Public Library,2
+35,University and Emerson,29,San Antonio Caltrain Station,5
+35,University and Emerson,28,Mountain View Caltrain Station,4
+35,University and Emerson,31,San Antonio Shopping Center,3
+32,Castro Street and El Camino Real,32,Castro Street and El Camino Real,48
+32,Castro Street and El Camino Real,33,Rengstorff Avenue / California Street,6
+32,Castro Street and El Camino Real,38,Park at Olive,2
+32,Castro Street and El Camino Real,36,California Ave Caltrain Station,1
+32,Castro Street and El Camino Real,37,Cowper at University,1
+32,Castro Street and El Camino Real,27,Mountain View City Hall,14
+32,Castro Street and El Camino Real,29,San Antonio Caltrain Station,3
+32,Castro Street and El Camino Real,63,Howard at 2nd,2
+32,Castro Street and El Camino Real,28,Mountain View Caltrain Station,53
+32,Castro Street and El Camino Real,31,San Antonio Shopping Center,16
+32,Castro Street and El Camino Real,30,Evelyn Park and Ride,3
+33,Rengstorff Avenue / California Street,32,Castro Street and El Camino Real,6
+33,Rengstorff Avenue / California Street,33,Rengstorff Avenue / California Street,38
+33,Rengstorff Avenue / California Street,38,Park at Olive,6
+33,Rengstorff Avenue / California Street,36,California Ave Caltrain Station,6
+33,Rengstorff Avenue / California Street,27,Mountain View City Hall,23
+33,Rengstorff Avenue / California Street,29,San Antonio Caltrain Station,11
+33,Rengstorff Avenue / California Street,28,Mountain View Caltrain Station,26
+33,Rengstorff Avenue / California Street,31,San Antonio Shopping Center,5
+33,Rengstorff Avenue / California Street,30,Evelyn Park and Ride,2
+38,Park at Olive,34,Palo Alto Caltrain Station,19
+38,Park at Olive,35,University and Emerson,32
+38,Park at Olive,70,San Francisco Caltrain (Townsend at 4th),1
+38,Park at Olive,32,Castro Street and El Camino Real,2
+38,Park at Olive,33,Rengstorff Avenue / California Street,8
+38,Park at Olive,38,Park at Olive,36
+38,Park at Olive,36,California Ave Caltrain Station,11
+38,Park at Olive,37,Cowper at University,8
+38,Park at Olive,27,Mountain View City Hall,1
+38,Park at Olive,29,San Antonio Caltrain Station,13
+38,Park at Olive,28,Mountain View Caltrain Station,1
+38,Park at Olive,31,San Antonio Shopping Center,8
+39,Powell Street BART,68,Yerba Buena Center of the Arts (3rd @ Howard),23
+39,Powell Street BART,69,San Francisco Caltrain 2 (330 Townsend),47
+39,Powell Street BART,70,San Francisco Caltrain (Townsend at 4th),57
+39,Powell Street BART,71,Powell at Post (Union Square),41
+39,Powell Street BART,64,2nd at South Park,17
+39,Powell Street BART,65,Townsend at 7th,34
+39,Powell Street BART,66,South Van Ness at Market,154
+39,Powell Street BART,67,Market at 10th,163
+39,Powell Street BART,76,Market at 4th,47
+39,Powell Street BART,77,Market at Sansome,28
+39,Powell Street BART,72,Civic Center BART (7th at Market),73
+39,Powell Street BART,73,Grant Avenue at Columbus Avenue,36
+39,Powell Street BART,74,Steuart at Market,87
+39,Powell Street BART,75,Mechanics Plaza (Market at Battery),23
+39,Powell Street BART,82,Broadway St at Battery St,5
+39,Powell Street BART,39,Powell Street BART,231
+39,Powell Street BART,42,Davis at Jackson,4
+39,Powell Street BART,41,Clay at Battery,15
+39,Powell Street BART,46,Washington at Kearney,32
+39,Powell Street BART,47,Post at Kearney,21
+39,Powell Street BART,45,Commercial at Montgomery,8
+39,Powell Street BART,51,Embarcadero at Folsom,13
+39,Powell Street BART,50,Harry Bridges Plaza (Ferry Building),135
+39,Powell Street BART,49,Spear at Folsom,11
+39,Powell Street BART,48,Embarcadero at Vallejo,66
+39,Powell Street BART,55,Temporary Transbay Terminal (Howard at Beale),6
+39,Powell Street BART,54,Embarcadero at Bryant,19
+39,Powell Street BART,59,Golden Gate at Polk,46
+39,Powell Street BART,58,San Francisco City Hall,55
+39,Powell Street BART,57,5th at Howard,28
+39,Powell Street BART,56,Beale at Market,19
+39,Powell Street BART,63,Howard at 2nd,15
+39,Powell Street BART,62,2nd at Folsom,14
+39,Powell Street BART,61,2nd at Townsend,53
+39,Powell Street BART,60,Embarcadero at Sansome,171
+36,California Ave Caltrain Station,34,Palo Alto Caltrain Station,36
+36,California Ave Caltrain Station,35,University and Emerson,58
+36,California Ave Caltrain Station,33,Rengstorff Avenue / California Street,2
+36,California Ave Caltrain Station,38,Park at Olive,8
+36,California Ave Caltrain Station,36,California Ave Caltrain Station,63
+36,California Ave Caltrain Station,37,Cowper at University,18
+36,California Ave Caltrain Station,25,Stanford in Redwood City,6
+36,California Ave Caltrain Station,27,Mountain View City Hall,2
+36,California Ave Caltrain Station,29,San Antonio Caltrain Station,7
+36,California Ave Caltrain Station,28,Mountain View Caltrain Station,5
+36,California Ave Caltrain Station,31,San Antonio Shopping Center,5
+37,Cowper at University,34,Palo Alto Caltrain Station,26
+37,Cowper at University,35,University and Emerson,29
+37,Cowper at University,38,Park at Olive,9
+37,Cowper at University,21,Franklin at Maple,2
+37,Cowper at University,36,California Ave Caltrain Station,12
+37,Cowper at University,37,Cowper at University,45
+37,Cowper at University,25,Stanford in Redwood City,1
+37,Cowper at University,30,Evelyn Park and Ride,1
+42,Davis at Jackson,68,Yerba Buena Center of the Arts (3rd @ Howard),5
+42,Davis at Jackson,69,San Francisco Caltrain 2 (330 Townsend),14
+42,Davis at Jackson,70,San Francisco Caltrain (Townsend at 4th),34
+42,Davis at Jackson,71,Powell at Post (Union Square),16
+42,Davis at Jackson,65,Townsend at 7th,2
+42,Davis at Jackson,66,South Van Ness at Market,4
+42,Davis at Jackson,67,Market at 10th,3
+42,Davis at Jackson,76,Market at 4th,7
+42,Davis at Jackson,77,Market at Sansome,6
+42,Davis at Jackson,72,Civic Center BART (7th at Market),3
+42,Davis at Jackson,73,Grant Avenue at Columbus Avenue,17
+42,Davis at Jackson,74,Steuart at Market,3
+42,Davis at Jackson,75,Mechanics Plaza (Market at Battery),3
+42,Davis at Jackson,82,Broadway St at Battery St,2
+42,Davis at Jackson,39,Powell Street BART,2
+42,Davis at Jackson,42,Davis at Jackson,84
+42,Davis at Jackson,41,Clay at Battery,2
+42,Davis at Jackson,46,Washington at Kearney,11
+42,Davis at Jackson,47,Post at Kearney,2
+42,Davis at Jackson,45,Commercial at Montgomery,5
+42,Davis at Jackson,51,Embarcadero at Folsom,5
+42,Davis at Jackson,50,Harry Bridges Plaza (Ferry Building),30
+42,Davis at Jackson,49,Spear at Folsom,6
+42,Davis at Jackson,48,Embarcadero at Vallejo,14
+42,Davis at Jackson,55,Temporary Transbay Terminal (Howard at Beale),3
+42,Davis at Jackson,54,Embarcadero at Bryant,14
+42,Davis at Jackson,57,5th at Howard,9
+42,Davis at Jackson,56,Beale at Market,3
+42,Davis at Jackson,63,Howard at 2nd,1
+42,Davis at Jackson,62,2nd at Folsom,1
+42,Davis at Jackson,61,2nd at Townsend,20
+42,Davis at Jackson,60,Embarcadero at Sansome,69
+41,Clay at Battery,68,Yerba Buena Center of the Arts (3rd @ Howard),24
+41,Clay at Battery,69,San Francisco Caltrain 2 (330 Townsend),11
+41,Clay at Battery,70,San Francisco Caltrain (Townsend at 4th),20
+41,Clay at Battery,71,Powell at Post (Union Square),38
+41,Clay at Battery,64,2nd at South Park,9
+41,Clay at Battery,65,Townsend at 7th,7
+41,Clay at Battery,66,South Van Ness at Market,7
+41,Clay at Battery,67,Market at 10th,10
+41,Clay at Battery,76,Market at 4th,33
+41,Clay at Battery,77,Market at Sansome,11
+41,Clay at Battery,72,Civic Center BART (7th at Market),10
+41,Clay at Battery,73,Grant Avenue at Columbus Avenue,44
+41,Clay at Battery,74,Steuart at Market,16
+41,Clay at Battery,75,Mechanics Plaza (Market at Battery),11
+41,Clay at Battery,82,Broadway St at Battery St,7
+41,Clay at Battery,39,Powell Street BART,16
+41,Clay at Battery,42,Davis at Jackson,3
+41,Clay at Battery,41,Clay at Battery,108
+41,Clay at Battery,46,Washington at Kearney,11
+41,Clay at Battery,47,Post at Kearney,13
+41,Clay at Battery,45,Commercial at Montgomery,13
+41,Clay at Battery,51,Embarcadero at Folsom,1
+41,Clay at Battery,50,Harry Bridges Plaza (Ferry Building),49
+41,Clay at Battery,49,Spear at Folsom,9
+41,Clay at Battery,48,Embarcadero at Vallejo,17
+41,Clay at Battery,55,Temporary Transbay Terminal (Howard at Beale),4
+41,Clay at Battery,54,Embarcadero at Bryant,17
+41,Clay at Battery,59,Golden Gate at Polk,12
+41,Clay at Battery,58,San Francisco City Hall,2
+41,Clay at Battery,57,5th at Howard,5
+41,Clay at Battery,56,Beale at Market,9
+41,Clay at Battery,63,Howard at 2nd,6
+41,Clay at Battery,62,2nd at Folsom,4
+41,Clay at Battery,61,2nd at Townsend,29
+41,Clay at Battery,60,Embarcadero at Sansome,97
+46,Washington at Kearney,68,Yerba Buena Center of the Arts (3rd @ Howard),27
+46,Washington at Kearney,69,San Francisco Caltrain 2 (330 Townsend),5
+46,Washington at Kearney,70,San Francisco Caltrain (Townsend at 4th),22
+46,Washington at Kearney,71,Powell at Post (Union Square),62
+46,Washington at Kearney,64,2nd at South Park,8
+46,Washington at Kearney,65,Townsend at 7th,12
+46,Washington at Kearney,66,South Van Ness at Market,11
+46,Washington at Kearney,67,Market at 10th,11
+46,Washington at Kearney,76,Market at 4th,49
+46,Washington at Kearney,77,Market at Sansome,17
+46,Washington at Kearney,72,Civic Center BART (7th at Market),17
+46,Washington at Kearney,73,Grant Avenue at Columbus Avenue,42
+46,Washington at Kearney,74,Steuart at Market,23
+46,Washington at Kearney,75,Mechanics Plaza (Market at Battery),15
+46,Washington at Kearney,82,Broadway St at Battery St,23
+46,Washington at Kearney,39,Powell Street BART,29
+46,Washington at Kearney,42,Davis at Jackson,9
+46,Washington at Kearney,41,Clay at Battery,10
+46,Washington at Kearney,46,Washington at Kearney,119
+46,Washington at Kearney,47,Post at Kearney,31
+46,Washington at Kearney,45,Commercial at Montgomery,8
+46,Washington at Kearney,51,Embarcadero at Folsom,8
+46,Washington at Kearney,50,Harry Bridges Plaza (Ferry Building),59
+46,Washington at Kearney,49,Spear at Folsom,5
+46,Washington at Kearney,48,Embarcadero at Vallejo,44
+46,Washington at Kearney,55,Temporary Transbay Terminal (Howard at Beale),2
+46,Washington at Kearney,54,Embarcadero at Bryant,6
+46,Washington at Kearney,59,Golden Gate at Polk,8
+46,Washington at Kearney,58,San Francisco City Hall,10
+46,Washington at Kearney,57,5th at Howard,21
+46,Washington at Kearney,56,Beale at Market,10
+46,Washington at Kearney,63,Howard at 2nd,9
+46,Washington at Kearney,62,2nd at Folsom,2
+46,Washington at Kearney,61,2nd at Townsend,22
+46,Washington at Kearney,60,Embarcadero at Sansome,122
+47,Post at Kearney,68,Yerba Buena Center of the Arts (3rd @ Howard),15
+47,Post at Kearney,69,San Francisco Caltrain 2 (330 Townsend),7
+47,Post at Kearney,70,San Francisco Caltrain (Townsend at 4th),21
+47,Post at Kearney,71,Powell at Post (Union Square),28
+47,Post at Kearney,64,2nd at South Park,17
+47,Post at Kearney,65,Townsend at 7th,2
+47,Post at Kearney,66,South Van Ness at Market,12
+47,Post at Kearney,67,Market at 10th,15
+47,Post at Kearney,76,Market at 4th,14
+47,Post at Kearney,77,Market at Sansome,8
+47,Post at Kearney,72,Civic Center BART (7th at Market),26
+47,Post at Kearney,73,Grant Avenue at Columbus Avenue,45
+47,Post at Kearney,74,Steuart at Market,40
+47,Post at Kearney,75,Mechanics Plaza (Market at Battery),9
+47,Post at Kearney,82,Broadway St at Battery St,17
+47,Post at Kearney,39,Powell Street BART,13
+47,Post at Kearney,42,Davis at Jackson,1
+47,Post at Kearney,41,Clay at Battery,10
+47,Post at Kearney,46,Washington at Kearney,24
+47,Post at Kearney,47,Post at Kearney,59
+47,Post at Kearney,45,Commercial at Montgomery,11
+47,Post at Kearney,51,Embarcadero at Folsom,8
+47,Post at Kearney,50,Harry Bridges Plaza (Ferry Building),51
+47,Post at Kearney,49,Spear at Folsom,5
+47,Post at Kearney,48,Embarcadero at Vallejo,26
+47,Post at Kearney,55,Temporary Transbay Terminal (Howard at Beale),4
+47,Post at Kearney,54,Embarcadero at Bryant,14
+47,Post at Kearney,59,Golden Gate at Polk,11
+47,Post at Kearney,58,San Francisco City Hall,9
+47,Post at Kearney,57,5th at Howard,7
+47,Post at Kearney,56,Beale at Market,14
+47,Post at Kearney,63,Howard at 2nd,8
+47,Post at Kearney,62,2nd at Folsom,9
+47,Post at Kearney,61,2nd at Townsend,27
+47,Post at Kearney,60,Embarcadero at Sansome,93
+45,Commercial at Montgomery,68,Yerba Buena Center of the Arts (3rd @ Howard),7
+45,Commercial at Montgomery,69,San Francisco Caltrain 2 (330 Townsend),14
+45,Commercial at Montgomery,70,San Francisco Caltrain (Townsend at 4th),22
+45,Commercial at Montgomery,71,Powell at Post (Union Square),39
+45,Commercial at Montgomery,64,2nd at South Park,18
+45,Commercial at Montgomery,65,Townsend at 7th,11
+45,Commercial at Montgomery,66,South Van Ness at Market,7
+45,Commercial at Montgomery,67,Market at 10th,8
+45,Commercial at Montgomery,76,Market at 4th,30
+45,Commercial at Montgomery,77,Market at Sansome,7
+45,Commercial at Montgomery,72,Civic Center BART (7th at Market),8
+45,Commercial at Montgomery,73,Grant Avenue at Columbus Avenue,16
+45,Commercial at Montgomery,74,Steuart at Market,14
+45,Commercial at Montgomery,75,Mechanics Plaza (Market at Battery),8
+45,Commercial at Montgomery,82,Broadway St at Battery St,2
+45,Commercial at Montgomery,39,Powell Street BART,25
+45,Commercial at Montgomery,42,Davis at Jackson,8
+45,Commercial at Montgomery,41,Clay at Battery,8
+45,Commercial at Montgomery,46,Washington at Kearney,5
+45,Commercial at Montgomery,47,Post at Kearney,13
+45,Commercial at Montgomery,45,Commercial at Montgomery,64
+45,Commercial at Montgomery,51,Embarcadero at Folsom,5
+45,Commercial at Montgomery,50,Harry Bridges Plaza (Ferry Building),40
+45,Commercial at Montgomery,49,Spear at Folsom,4
+45,Commercial at Montgomery,48,Embarcadero at Vallejo,13
+45,Commercial at Montgomery,55,Temporary Transbay Terminal (Howard at Beale),5
+45,Commercial at Montgomery,54,Embarcadero at Bryant,6
+45,Commercial at Montgomery,59,Golden Gate at Polk,2
+45,Commercial at Montgomery,58,San Francisco City Hall,4
+45,Commercial at Montgomery,57,5th at Howard,8
+45,Commercial at Montgomery,56,Beale at Market,7
+45,Commercial at Montgomery,63,Howard at 2nd,3
+45,Commercial at Montgomery,62,2nd at Folsom,3
+45,Commercial at Montgomery,61,2nd at Townsend,36
+45,Commercial at Montgomery,60,Embarcadero at Sansome,51
+51,Embarcadero at Folsom,68,Yerba Buena Center of the Arts (3rd @ Howard),22
+51,Embarcadero at Folsom,69,San Francisco Caltrain 2 (330 Townsend),27
+51,Embarcadero at Folsom,70,San Francisco Caltrain (Townsend at 4th),78
+51,Embarcadero at Folsom,71,Powell at Post (Union Square),19
+51,Embarcadero at Folsom,64,2nd at South Park,21
+51,Embarcadero at Folsom,65,Townsend at 7th,22
+51,Embarcadero at Folsom,66,South Van Ness at Market,5
+51,Embarcadero at Folsom,67,Market at 10th,18
+51,Embarcadero at Folsom,76,Market at 4th,38
+51,Embarcadero at Folsom,77,Market at Sansome,13
+51,Embarcadero at Folsom,72,Civic Center BART (7th at Market),4
+51,Embarcadero at Folsom,73,Grant Avenue at Columbus Avenue,21
+51,Embarcadero at Folsom,74,Steuart at Market,11
+51,Embarcadero at Folsom,75,Mechanics Plaza (Market at Battery),15
+51,Embarcadero at Folsom,82,Broadway St at Battery St,8
+51,Embarcadero at Folsom,39,Powell Street BART,10
+51,Embarcadero at Folsom,42,Davis at Jackson,5
+51,Embarcadero at Folsom,41,Clay at Battery,7
+51,Embarcadero at Folsom,46,Washington at Kearney,5
+51,Embarcadero at Folsom,47,Post at Kearney,9
+51,Embarcadero at Folsom,45,Commercial at Montgomery,4
+51,Embarcadero at Folsom,51,Embarcadero at Folsom,74
+51,Embarcadero at Folsom,50,Harry Bridges Plaza (Ferry Building),34
+51,Embarcadero at Folsom,49,Spear at Folsom,7
+51,Embarcadero at Folsom,48,Embarcadero at Vallejo,28
+51,Embarcadero at Folsom,55,Temporary Transbay Terminal (Howard at Beale),1
+51,Embarcadero at Folsom,54,Embarcadero at Bryant,29
+51,Embarcadero at Folsom,59,Golden Gate at Polk,2
+51,Embarcadero at Folsom,58,San Francisco City Hall,2
+51,Embarcadero at Folsom,57,5th at Howard,8
+51,Embarcadero at Folsom,56,Beale at Market,2
+51,Embarcadero at Folsom,63,Howard at 2nd,12
+51,Embarcadero at Folsom,62,2nd at Folsom,7
+51,Embarcadero at Folsom,61,2nd at Townsend,104
+51,Embarcadero at Folsom,60,Embarcadero at Sansome,120
+50,Harry Bridges Plaza (Ferry Building),68,Yerba Buena Center of the Arts (3rd @ Howard),59
+50,Harry Bridges Plaza (Ferry Building),69,San Francisco Caltrain 2 (330 Townsend),52
+50,Harry Bridges Plaza (Ferry Building),70,San Francisco Caltrain (Townsend at 4th),156
+50,Harry Bridges Plaza (Ferry Building),71,Powell at Post (Union Square),159
+50,Harry Bridges Plaza (Ferry Building),64,2nd at South Park,54
+50,Harry Bridges Plaza (Ferry Building),65,Townsend at 7th,41
+50,Harry Bridges Plaza (Ferry Building),66,South Van Ness at Market,62
+50,Harry Bridges Plaza (Ferry Building),67,Market at 10th,55
+50,Harry Bridges Plaza (Ferry Building),76,Market at 4th,169
+50,Harry Bridges Plaza (Ferry Building),77,Market at Sansome,67
+50,Harry Bridges Plaza (Ferry Building),72,Civic Center BART (7th at Market),30
+50,Harry Bridges Plaza (Ferry Building),73,Grant Avenue at Columbus Avenue,160
+50,Harry Bridges Plaza (Ferry Building),74,Steuart at Market,39
+50,Harry Bridges Plaza (Ferry Building),75,Mechanics Plaza (Market at Battery),54
+50,Harry Bridges Plaza (Ferry Building),82,Broadway St at Battery St,37
+50,Harry Bridges Plaza (Ferry Building),39,Powell Street BART,153
+50,Harry Bridges Plaza (Ferry Building),42,Davis at Jackson,19
+50,Harry Bridges Plaza (Ferry Building),41,Clay at Battery,33
+50,Harry Bridges Plaza (Ferry Building),46,Washington at Kearney,62
+50,Harry Bridges Plaza (Ferry Building),47,Post at Kearney,42
+50,Harry Bridges Plaza (Ferry Building),45,Commercial at Montgomery,26
+50,Harry Bridges Plaza (Ferry Building),51,Embarcadero at Folsom,19
+50,Harry Bridges Plaza (Ferry Building),50,Harry Bridges Plaza (Ferry Building),606
+50,Harry Bridges Plaza (Ferry Building),49,Spear at Folsom,21
+50,Harry Bridges Plaza (Ferry Building),48,Embarcadero at Vallejo,286
+50,Harry Bridges Plaza (Ferry Building),55,Temporary Transbay Terminal (Howard at Beale),9
+50,Harry Bridges Plaza (Ferry Building),54,Embarcadero at Bryant,86
+50,Harry Bridges Plaza (Ferry Building),59,Golden Gate at Polk,30
+50,Harry Bridges Plaza (Ferry Building),58,San Francisco City Hall,21
+50,Harry Bridges Plaza (Ferry Building),57,5th at Howard,43
+50,Harry Bridges Plaza (Ferry Building),56,Beale at Market,19
+50,Harry Bridges Plaza (Ferry Building),63,Howard at 2nd,21
+50,Harry Bridges Plaza (Ferry Building),62,2nd at Folsom,14
+50,Harry Bridges Plaza (Ferry Building),61,2nd at Townsend,186
+50,Harry Bridges Plaza (Ferry Building),60,Embarcadero at Sansome,1154
+49,Spear at Folsom,68,Yerba Buena Center of the Arts (3rd @ Howard),27
+49,Spear at Folsom,69,San Francisco Caltrain 2 (330 Townsend),16
+49,Spear at Folsom,70,San Francisco Caltrain (Townsend at 4th),38
+49,Spear at Folsom,71,Powell at Post (Union Square),9
+49,Spear at Folsom,64,2nd at South Park,6
+49,Spear at Folsom,65,Townsend at 7th,20
+49,Spear at Folsom,66,South Van Ness at Market,7
+49,Spear at Folsom,67,Market at 10th,11
+49,Spear at Folsom,76,Market at 4th,11
+49,Spear at Folsom,77,Market at Sansome,7
+49,Spear at Folsom,72,Civic Center BART (7th at Market),5
+49,Spear at Folsom,73,Grant Avenue at Columbus Avenue,16
+49,Spear at Folsom,74,Steuart at Market,24
+49,Spear at Folsom,75,Mechanics Plaza (Market at Battery),5
+49,Spear at Folsom,82,Broadway St at Battery St,6
+49,Spear at Folsom,39,Powell Street BART,14
+49,Spear at Folsom,42,Davis at Jackson,6
+49,Spear at Folsom,41,Clay at Battery,10
+49,Spear at Folsom,46,Washington at Kearney,2
+49,Spear at Folsom,47,Post at Kearney,5
+49,Spear at Folsom,45,Commercial at Montgomery,3
+49,Spear at Folsom,51,Embarcadero at Folsom,4
+49,Spear at Folsom,50,Harry Bridges Plaza (Ferry Building),39
+49,Spear at Folsom,49,Spear at Folsom,76
+49,Spear at Folsom,48,Embarcadero at Vallejo,21
+49,Spear at Folsom,54,Embarcadero at Bryant,10
+49,Spear at Folsom,58,San Francisco City Hall,1
+49,Spear at Folsom,57,5th at Howard,13
+49,Spear at Folsom,56,Beale at Market,13
+49,Spear at Folsom,63,Howard at 2nd,17
+49,Spear at Folsom,62,2nd at Folsom,8
+49,Spear at Folsom,61,2nd at Townsend,36
+49,Spear at Folsom,60,Embarcadero at Sansome,61
+48,Embarcadero at Vallejo,68,Yerba Buena Center of the Arts (3rd @ Howard),15
+48,Embarcadero at Vallejo,69,San Francisco Caltrain 2 (330 Townsend),18
+48,Embarcadero at Vallejo,70,San Francisco Caltrain (Townsend at 4th),58
+48,Embarcadero at Vallejo,71,Powell at Post (Union Square),35
+48,Embarcadero at Vallejo,64,2nd at South Park,8
+48,Embarcadero at Vallejo,65,Townsend at 7th,6
+48,Embarcadero at Vallejo,66,South Van Ness at Market,5
+48,Embarcadero at Vallejo,67,Market at 10th,14
+48,Embarcadero at Vallejo,76,Market at 4th,71
+48,Embarcadero at Vallejo,77,Market at Sansome,17
+48,Embarcadero at Vallejo,72,Civic Center BART (7th at Market),14
+48,Embarcadero at Vallejo,73,Grant Avenue at Columbus Avenue,69
+48,Embarcadero at Vallejo,74,Steuart at Market,44
+48,Embarcadero at Vallejo,75,Mechanics Plaza (Market at Battery),27
+48,Embarcadero at Vallejo,82,Broadway St at Battery St,14
+48,Embarcadero at Vallejo,39,Powell Street BART,54
+48,Embarcadero at Vallejo,42,Davis at Jackson,13
+48,Embarcadero at Vallejo,41,Clay at Battery,16
+48,Embarcadero at Vallejo,46,Washington at Kearney,21
+48,Embarcadero at Vallejo,47,Post at Kearney,20
+48,Embarcadero at Vallejo,45,Commercial at Montgomery,20
+48,Embarcadero at Vallejo,51,Embarcadero at Folsom,24
+48,Embarcadero at Vallejo,50,Harry Bridges Plaza (Ferry Building),147
+48,Embarcadero at Vallejo,49,Spear at Folsom,10
+48,Embarcadero at Vallejo,48,Embarcadero at Vallejo,193
+48,Embarcadero at Vallejo,55,Temporary Transbay Terminal (Howard at Beale),8
+48,Embarcadero at Vallejo,54,Embarcadero at Bryant,38
+48,Embarcadero at Vallejo,59,Golden Gate at Polk,9
+48,Embarcadero at Vallejo,58,San Francisco City Hall,7
+48,Embarcadero at Vallejo,57,5th at Howard,21
+48,Embarcadero at Vallejo,56,Beale at Market,23
+48,Embarcadero at Vallejo,63,Howard at 2nd,3
+48,Embarcadero at Vallejo,62,2nd at Folsom,10
+48,Embarcadero at Vallejo,61,2nd at Townsend,61
+48,Embarcadero at Vallejo,60,Embarcadero at Sansome,420
+55,Temporary Transbay Terminal (Howard at Beale),68,Yerba Buena Center of the Arts (3rd @ Howard),20
+55,Temporary Transbay Terminal (Howard at Beale),69,San Francisco Caltrain 2 (330 Townsend),11
+55,Temporary Transbay Terminal (Howard at Beale),70,San Francisco Caltrain (Townsend at 4th),38
+55,Temporary Transbay Terminal (Howard at Beale),71,Powell at Post (Union Square),9
+55,Temporary Transbay Terminal (Howard at Beale),64,2nd at South Park,4
+55,Temporary Transbay Terminal (Howard at Beale),65,Townsend at 7th,9
+55,Temporary Transbay Terminal (Howard at Beale),66,South Van Ness at Market,12
+55,Temporary Transbay Terminal (Howard at Beale),67,Market at 10th,11
+55,Temporary Transbay Terminal (Howard at Beale),76,Market at 4th,21
+55,Temporary Transbay Terminal (Howard at Beale),77,Market at Sansome,7
+55,Temporary Transbay Terminal (Howard at Beale),72,Civic Center BART (7th at Market),6
+55,Temporary Transbay Terminal (Howard at Beale),73,Grant Avenue at Columbus Avenue,10
+55,Temporary Transbay Terminal (Howard at Beale),74,Steuart at Market,7
+55,Temporary Transbay Terminal (Howard at Beale),75,Mechanics Plaza (Market at Battery),7
+55,Temporary Transbay Terminal (Howard at Beale),82,Broadway St at Battery St,4
+55,Temporary Transbay Terminal (Howard at Beale),39,Powell Street BART,24
+55,Temporary Transbay Terminal (Howard at Beale),42,Davis at Jackson,4
+55,Temporary Transbay Terminal (Howard at Beale),41,Clay at Battery,4
+55,Temporary Transbay Terminal (Howard at Beale),46,Washington at Kearney,4
+55,Temporary Transbay Terminal (Howard at Beale),47,Post at Kearney,6
+55,Temporary Transbay Terminal (Howard at Beale),45,Commercial at Montgomery,8
+55,Temporary Transbay Terminal (Howard at Beale),50,Harry Bridges Plaza (Ferry Building),12
+55,Temporary Transbay Terminal (Howard at Beale),49,Spear at Folsom,1
+55,Temporary Transbay Terminal (Howard at Beale),48,Embarcadero at Vallejo,8
+55,Temporary Transbay Terminal (Howard at Beale),55,Temporary Transbay Terminal (Howard at Beale),32
+55,Temporary Transbay Terminal (Howard at Beale),54,Embarcadero at Bryant,8
+55,Temporary Transbay Terminal (Howard at Beale),59,Golden Gate at Polk,1
+55,Temporary Transbay Terminal (Howard at Beale),58,San Francisco City Hall,4
+55,Temporary Transbay Terminal (Howard at Beale),57,5th at Howard,20
+55,Temporary Transbay Terminal (Howard at Beale),56,Beale at Market,3
+55,Temporary Transbay Terminal (Howard at Beale),63,Howard at 2nd,7
+55,Temporary Transbay Terminal (Howard at Beale),62,2nd at Folsom,3
+55,Temporary Transbay Terminal (Howard at Beale),61,2nd at Townsend,22
+55,Temporary Transbay Terminal (Howard at Beale),60,Embarcadero at Sansome,22
+54,Embarcadero at Bryant,68,Yerba Buena Center of the Arts (3rd @ Howard),6
+54,Embarcadero at Bryant,69,San Francisco Caltrain 2 (330 Townsend),28
+54,Embarcadero at Bryant,70,San Francisco Caltrain (Townsend at 4th),49
+54,Embarcadero at Bryant,71,Powell at Post (Union Square),27
+54,Embarcadero at Bryant,64,2nd at South Park,6
+54,Embarcadero at Bryant,65,Townsend at 7th,25
+54,Embarcadero at Bryant,66,South Van Ness at Market,9
+54,Embarcadero at Bryant,67,Market at 10th,4
+54,Embarcadero at Bryant,76,Market at 4th,12
+54,Embarcadero at Bryant,77,Market at Sansome,13
+54,Embarcadero at Bryant,72,Civic Center BART (7th at Market),2
+54,Embarcadero at Bryant,73,Grant Avenue at Columbus Avenue,20
+54,Embarcadero at Bryant,74,Steuart at Market,40
+54,Embarcadero at Bryant,75,Mechanics Plaza (Market at Battery),20
+54,Embarcadero at Bryant,82,Broadway St at Battery St,11
+54,Embarcadero at Bryant,39,Powell Street BART,10
+54,Embarcadero at Bryant,42,Davis at Jackson,7
+54,Embarcadero at Bryant,41,Clay at Battery,20
+54,Embarcadero at Bryant,46,Washington at Kearney,5
+54,Embarcadero at Bryant,47,Post at Kearney,11
+54,Embarcadero at Bryant,45,Commercial at Montgomery,5
+54,Embarcadero at Bryant,51,Embarcadero at Folsom,33
+54,Embarcadero at Bryant,50,Harry Bridges Plaza (Ferry Building),118
+54,Embarcadero at Bryant,49,Spear at Folsom,1
+54,Embarcadero at Bryant,48,Embarcadero at Vallejo,73
+54,Embarcadero at Bryant,55,Temporary Transbay Terminal (Howard at Beale),5
+54,Embarcadero at Bryant,54,Embarcadero at Bryant,133
+54,Embarcadero at Bryant,59,Golden Gate at Polk,6
+54,Embarcadero at Bryant,58,San Francisco City Hall,4
+54,Embarcadero at Bryant,57,5th at Howard,4
+54,Embarcadero at Bryant,56,Beale at Market,11
+54,Embarcadero at Bryant,63,Howard at 2nd,8
+54,Embarcadero at Bryant,62,2nd at Folsom,1
+54,Embarcadero at Bryant,61,2nd at Townsend,63
+54,Embarcadero at Bryant,60,Embarcadero at Sansome,187
+59,Golden Gate at Polk,68,Yerba Buena Center of the Arts (3rd @ Howard),3
+59,Golden Gate at Polk,69,San Francisco Caltrain 2 (330 Townsend),10
+59,Golden Gate at Polk,70,San Francisco Caltrain (Townsend at 4th),9
+59,Golden Gate at Polk,71,Powell at Post (Union Square),45
+59,Golden Gate at Polk,64,2nd at South Park,4
+59,Golden Gate at Polk,65,Townsend at 7th,9
+59,Golden Gate at Polk,66,South Van Ness at Market,24
+59,Golden Gate at Polk,67,Market at 10th,11
+59,Golden Gate at Polk,76,Market at 4th,22
+59,Golden Gate at Polk,77,Market at Sansome,28
+59,Golden Gate at Polk,72,Civic Center BART (7th at Market),4
+59,Golden Gate at Polk,73,Grant Avenue at Columbus Avenue,8
+59,Golden Gate at Polk,74,Steuart at Market,25
+59,Golden Gate at Polk,75,Mechanics Plaza (Market at Battery),3
+59,Golden Gate at Polk,82,Broadway St at Battery St,4
+59,Golden Gate at Polk,39,Powell Street BART,35
+59,Golden Gate at Polk,42,Davis at Jackson,3
+59,Golden Gate at Polk,41,Clay at Battery,10
+59,Golden Gate at Polk,46,Washington at Kearney,6
+59,Golden Gate at Polk,47,Post at Kearney,10
+59,Golden Gate at Polk,45,Commercial at Montgomery,2
+59,Golden Gate at Polk,50,Harry Bridges Plaza (Ferry Building),26
+59,Golden Gate at Polk,49,Spear at Folsom,2
+59,Golden Gate at Polk,48,Embarcadero at Vallejo,10
+59,Golden Gate at Polk,55,Temporary Transbay Terminal (Howard at Beale),1
+59,Golden Gate at Polk,59,Golden Gate at Polk,71
+59,Golden Gate at Polk,58,San Francisco City Hall,22
+59,Golden Gate at Polk,57,5th at Howard,15
+59,Golden Gate at Polk,56,Beale at Market,6
+59,Golden Gate at Polk,63,Howard at 2nd,2
+59,Golden Gate at Polk,62,2nd at Folsom,4
+59,Golden Gate at Polk,61,2nd at Townsend,7
+59,Golden Gate at Polk,60,Embarcadero at Sansome,28
+58,San Francisco City Hall,68,Yerba Buena Center of the Arts (3rd @ Howard),6
+58,San Francisco City Hall,69,San Francisco Caltrain 2 (330 Townsend),8
+58,San Francisco City Hall,70,San Francisco Caltrain (Townsend at 4th),5
+58,San Francisco City Hall,71,Powell at Post (Union Square),33
+58,San Francisco City Hall,64,2nd at South Park,1
+58,San Francisco City Hall,65,Townsend at 7th,8
+58,San Francisco City Hall,66,South Van Ness at Market,26
+58,San Francisco City Hall,67,Market at 10th,33
+58,San Francisco City Hall,76,Market at 4th,43
+58,San Francisco City Hall,77,Market at Sansome,14
+58,San Francisco City Hall,72,Civic Center BART (7th at Market),14
+58,San Francisco City Hall,73,Grant Avenue at Columbus Avenue,21
+58,San Francisco City Hall,74,Steuart at Market,25
+58,San Francisco City Hall,75,Mechanics Plaza (Market at Battery),6
+58,San Francisco City Hall,82,Broadway St at Battery St,3
+58,San Francisco City Hall,39,Powell Street BART,44
+58,San Francisco City Hall,42,Davis at Jackson,1
+58,San Francisco City Hall,41,Clay at Battery,4
+58,San Francisco City Hall,46,Washington at Kearney,12
+58,San Francisco City Hall,47,Post at Kearney,4
+58,San Francisco City Hall,45,Commercial at Montgomery,8
+58,San Francisco City Hall,51,Embarcadero at Folsom,3
+58,San Francisco City Hall,50,Harry Bridges Plaza (Ferry Building),22
+58,San Francisco City Hall,49,Spear at Folsom,3
+58,San Francisco City Hall,48,Embarcadero at Vallejo,3
+58,San Francisco City Hall,55,Temporary Transbay Terminal (Howard at Beale),1
+58,San Francisco City Hall,59,Golden Gate at Polk,14
+58,San Francisco City Hall,58,San Francisco City Hall,60
+58,San Francisco City Hall,57,5th at Howard,6
+58,San Francisco City Hall,56,Beale at Market,3
+58,San Francisco City Hall,63,Howard at 2nd,2
+58,San Francisco City Hall,62,2nd at Folsom,11
+58,San Francisco City Hall,61,2nd at Townsend,6
+58,San Francisco City Hall,60,Embarcadero at Sansome,47
+57,5th at Howard,68,Yerba Buena Center of the Arts (3rd @ Howard),9
+57,5th at Howard,69,San Francisco Caltrain 2 (330 Townsend),40
+57,5th at Howard,70,San Francisco Caltrain (Townsend at 4th),17
+57,5th at Howard,71,Powell at Post (Union Square),37
+57,5th at Howard,64,2nd at South Park,19
+57,5th at Howard,65,Townsend at 7th,14
+57,5th at Howard,66,South Van Ness at Market,32
+57,5th at Howard,67,Market at 10th,29
+57,5th at Howard,76,Market at 4th,16
+57,5th at Howard,77,Market at Sansome,12
+57,5th at Howard,72,Civic Center BART (7th at Market),9
+57,5th at Howard,73,Grant Avenue at Columbus Avenue,26
+57,5th at Howard,74,Steuart at Market,27
+57,5th at Howard,75,Mechanics Plaza (Market at Battery),11
+57,5th at Howard,82,Broadway St at Battery St,13
+57,5th at Howard,39,Powell Street BART,47
+57,5th at Howard,42,Davis at Jackson,2
+57,5th at Howard,41,Clay at Battery,6
+57,5th at Howard,46,Washington at Kearney,9
+57,5th at Howard,47,Post at Kearney,15
+57,5th at Howard,45,Commercial at Montgomery,11
+57,5th at Howard,51,Embarcadero at Folsom,12
+57,5th at Howard,50,Harry Bridges Plaza (Ferry Building),64
+57,5th at Howard,49,Spear at Folsom,11
+57,5th at Howard,48,Embarcadero at Vallejo,20
+57,5th at Howard,55,Temporary Transbay Terminal (Howard at Beale),20
+57,5th at Howard,54,Embarcadero at Bryant,11
+57,5th at Howard,59,Golden Gate at Polk,12
+57,5th at Howard,58,San Francisco City Hall,8
+57,5th at Howard,57,5th at Howard,106
+57,5th at Howard,56,Beale at Market,12
+57,5th at Howard,63,Howard at 2nd,16
+57,5th at Howard,62,2nd at Folsom,10
+57,5th at Howard,61,2nd at Townsend,15
+57,5th at Howard,60,Embarcadero at Sansome,80
+56,Beale at Market,68,Yerba Buena Center of the Arts (3rd @ Howard),3
+56,Beale at Market,69,San Francisco Caltrain 2 (330 Townsend),15
+56,Beale at Market,70,San Francisco Caltrain (Townsend at 4th),32
+56,Beale at Market,71,Powell at Post (Union Square),29
+56,Beale at Market,64,2nd at South Park,16
+56,Beale at Market,65,Townsend at 7th,10
+56,Beale at Market,66,South Van Ness at Market,8
+56,Beale at Market,67,Market at 10th,22
+56,Beale at Market,76,Market at 4th,42
+56,Beale at Market,77,Market at Sansome,17
+56,Beale at Market,72,Civic Center BART (7th at Market),19
+56,Beale at Market,73,Grant Avenue at Columbus Avenue,23
+56,Beale at Market,74,Steuart at Market,29
+56,Beale at Market,75,Mechanics Plaza (Market at Battery),6
+56,Beale at Market,83,Mezes Park,1
+56,Beale at Market,82,Broadway St at Battery St,8
+56,Beale at Market,39,Powell Street BART,35
+56,Beale at Market,42,Davis at Jackson,2
+56,Beale at Market,41,Clay at Battery,1
+56,Beale at Market,46,Washington at Kearney,14
+56,Beale at Market,47,Post at Kearney,6
+56,Beale at Market,45,Commercial at Montgomery,6
+56,Beale at Market,51,Embarcadero at Folsom,3
+56,Beale at Market,50,Harry Bridges Plaza (Ferry Building),30
+56,Beale at Market,49,Spear at Folsom,5
+56,Beale at Market,48,Embarcadero at Vallejo,38
+56,Beale at Market,55,Temporary Transbay Terminal (Howard at Beale),4
+56,Beale at Market,54,Embarcadero at Bryant,12
+56,Beale at Market,59,Golden Gate at Polk,5
+56,Beale at Market,58,San Francisco City Hall,6
+56,Beale at Market,57,5th at Howard,21
+56,Beale at Market,56,Beale at Market,84
+56,Beale at Market,63,Howard at 2nd,6
+56,Beale at Market,62,2nd at Folsom,10
+56,Beale at Market,61,2nd at Townsend,35
+56,Beale at Market,60,Embarcadero at Sansome,80
+63,Howard at 2nd,68,Yerba Buena Center of the Arts (3rd @ Howard),15
+63,Howard at 2nd,69,San Francisco Caltrain 2 (330 Townsend),19
+63,Howard at 2nd,70,San Francisco Caltrain (Townsend at 4th),31
+63,Howard at 2nd,71,Powell at Post (Union Square),20
+63,Howard at 2nd,64,2nd at South Park,20
+63,Howard at 2nd,65,Townsend at 7th,11
+63,Howard at 2nd,66,South Van Ness at Market,12
+63,Howard at 2nd,67,Market at 10th,16
+63,Howard at 2nd,76,Market at 4th,19
+63,Howard at 2nd,77,Market at Sansome,16
+63,Howard at 2nd,72,Civic Center BART (7th at Market),4
+63,Howard at 2nd,73,Grant Avenue at Columbus Avenue,11
+63,Howard at 2nd,74,Steuart at Market,16
+63,Howard at 2nd,75,Mechanics Plaza (Market at Battery),6
+63,Howard at 2nd,82,Broadway St at Battery St,3
+63,Howard at 2nd,39,Powell Street BART,24
+63,Howard at 2nd,42,Davis at Jackson,2
+63,Howard at 2nd,41,Clay at Battery,2
+63,Howard at 2nd,46,Washington at Kearney,3
+63,Howard at 2nd,47,Post at Kearney,9
+63,Howard at 2nd,45,Commercial at Montgomery,2
+63,Howard at 2nd,51,Embarcadero at Folsom,14
+63,Howard at 2nd,50,Harry Bridges Plaza (Ferry Building),35
+63,Howard at 2nd,49,Spear at Folsom,4
+63,Howard at 2nd,48,Embarcadero at Vallejo,20
+63,Howard at 2nd,55,Temporary Transbay Terminal (Howard at Beale),3
+63,Howard at 2nd,54,Embarcadero at Bryant,5
+63,Howard at 2nd,59,Golden Gate at Polk,2
+63,Howard at 2nd,58,San Francisco City Hall,4
+63,Howard at 2nd,57,5th at Howard,22
+63,Howard at 2nd,56,Beale at Market,2
+63,Howard at 2nd,63,Howard at 2nd,34
+63,Howard at 2nd,62,2nd at Folsom,3
+63,Howard at 2nd,61,2nd at Townsend,19
+63,Howard at 2nd,60,Embarcadero at Sansome,56
+62,2nd at Folsom,68,Yerba Buena Center of the Arts (3rd @ Howard),12
+62,2nd at Folsom,69,San Francisco Caltrain 2 (330 Townsend),20
+62,2nd at Folsom,70,San Francisco Caltrain (Townsend at 4th),33
+62,2nd at Folsom,71,Powell at Post (Union Square),16
+62,2nd at Folsom,64,2nd at South Park,12
+62,2nd at Folsom,65,Townsend at 7th,24
+62,2nd at Folsom,66,South Van Ness at Market,5
+62,2nd at Folsom,67,Market at 10th,7
+62,2nd at Folsom,76,Market at 4th,13
+62,2nd at Folsom,77,Market at Sansome,17
+62,2nd at Folsom,72,Civic Center BART (7th at Market),9
+62,2nd at Folsom,73,Grant Avenue at Columbus Avenue,20
+62,2nd at Folsom,74,Steuart at Market,7
+62,2nd at Folsom,75,Mechanics Plaza (Market at Battery),2
+62,2nd at Folsom,82,Broadway St at Battery St,2
+62,2nd at Folsom,39,Powell Street BART,16
+62,2nd at Folsom,42,Davis at Jackson,1
+62,2nd at Folsom,41,Clay at Battery,10
+62,2nd at Folsom,46,Washington at Kearney,10
+62,2nd at Folsom,47,Post at Kearney,11
+62,2nd at Folsom,45,Commercial at Montgomery,5
+62,2nd at Folsom,51,Embarcadero at Folsom,8
+62,2nd at Folsom,50,Harry Bridges Plaza (Ferry Building),33
+62,2nd at Folsom,49,Spear at Folsom,16
+62,2nd at Folsom,48,Embarcadero at Vallejo,11
+62,2nd at Folsom,54,Embarcadero at Bryant,3
+62,2nd at Folsom,59,Golden Gate at Polk,4
+62,2nd at Folsom,58,San Francisco City Hall,1
+62,2nd at Folsom,57,5th at Howard,11
+62,2nd at Folsom,56,Beale at Market,6
+62,2nd at Folsom,63,Howard at 2nd,5
+62,2nd at Folsom,62,2nd at Folsom,45
+62,2nd at Folsom,61,2nd at Townsend,32
+62,2nd at Folsom,60,Embarcadero at Sansome,57
+61,2nd at Townsend,68,Yerba Buena Center of the Arts (3rd @ Howard),32
+61,2nd at Townsend,69,San Francisco Caltrain 2 (330 Townsend),6
+61,2nd at Townsend,70,San Francisco Caltrain (Townsend at 4th),16
+61,2nd at Townsend,71,Powell at Post (Union Square),26
+61,2nd at Townsend,64,2nd at South Park,11
+61,2nd at Townsend,65,Townsend at 7th,41
+61,2nd at Townsend,66,South Van Ness at Market,18
+61,2nd at Townsend,67,Market at 10th,31
+61,2nd at Townsend,76,Market at 4th,47
+61,2nd at Townsend,77,Market at Sansome,50
+61,2nd at Townsend,72,Civic Center BART (7th at Market),20
+61,2nd at Townsend,73,Grant Avenue at Columbus Avenue,39
+61,2nd at Townsend,74,Steuart at Market,71
+61,2nd at Townsend,75,Mechanics Plaza (Market at Battery),19
+61,2nd at Townsend,82,Broadway St at Battery St,38
+61,2nd at Townsend,39,Powell Street BART,37
+61,2nd at Townsend,42,Davis at Jackson,16
+61,2nd at Townsend,41,Clay at Battery,39
+61,2nd at Townsend,46,Washington at Kearney,20
+61,2nd at Townsend,47,Post at Kearney,24
+61,2nd at Townsend,45,Commercial at Montgomery,22
+61,2nd at Townsend,51,Embarcadero at Folsom,37
+61,2nd at Townsend,50,Harry Bridges Plaza (Ferry Building),278
+61,2nd at Townsend,49,Spear at Folsom,25
+61,2nd at Townsend,48,Embarcadero at Vallejo,78
+61,2nd at Townsend,55,Temporary Transbay Terminal (Howard at Beale),19
+61,2nd at Townsend,54,Embarcadero at Bryant,38
+61,2nd at Townsend,59,Golden Gate at Polk,11
+61,2nd at Townsend,58,San Francisco City Hall,5
+61,2nd at Townsend,57,5th at Howard,23
+61,2nd at Townsend,56,Beale at Market,32
+61,2nd at Townsend,63,Howard at 2nd,19
+61,2nd at Townsend,62,2nd at Folsom,20
+61,2nd at Townsend,61,2nd at Townsend,140
+61,2nd at Townsend,60,Embarcadero at Sansome,190
+60,Embarcadero at Sansome,68,Yerba Buena Center of the Arts (3rd @ Howard),50
+60,Embarcadero at Sansome,69,San Francisco Caltrain 2 (330 Townsend),57
+60,Embarcadero at Sansome,70,San Francisco Caltrain (Townsend at 4th),146
+60,Embarcadero at Sansome,71,Powell at Post (Union Square),196
+60,Embarcadero at Sansome,64,2nd at South Park,37
+60,Embarcadero at Sansome,65,Townsend at 7th,19
+60,Embarcadero at Sansome,66,South Van Ness at Market,45
+60,Embarcadero at Sansome,67,Market at 10th,65
+60,Embarcadero at Sansome,76,Market at 4th,211
+60,Embarcadero at Sansome,77,Market at Sansome,134
+60,Embarcadero at Sansome,72,Civic Center BART (7th at Market),68
+60,Embarcadero at Sansome,73,Grant Avenue at Columbus Avenue,234
+60,Embarcadero at Sansome,74,Steuart at Market,202
+60,Embarcadero at Sansome,75,Mechanics Plaza (Market at Battery),144
+60,Embarcadero at Sansome,82,Broadway St at Battery St,67
+60,Embarcadero at Sansome,39,Powell Street BART,170
+60,Embarcadero at Sansome,42,Davis at Jackson,52
+60,Embarcadero at Sansome,41,Clay at Battery,86
+60,Embarcadero at Sansome,46,Washington at Kearney,110
+60,Embarcadero at Sansome,47,Post at Kearney,61
+60,Embarcadero at Sansome,45,Commercial at Montgomery,48
+60,Embarcadero at Sansome,51,Embarcadero at Folsom,82
+60,Embarcadero at Sansome,50,Harry Bridges Plaza (Ferry Building),561
+60,Embarcadero at Sansome,49,Spear at Folsom,50
+60,Embarcadero at Sansome,48,Embarcadero at Vallejo,202
+60,Embarcadero at Sansome,55,Temporary Transbay Terminal (Howard at Beale),40
+60,Embarcadero at Sansome,54,Embarcadero at Bryant,110
+60,Embarcadero at Sansome,59,Golden Gate at Polk,32
+60,Embarcadero at Sansome,58,San Francisco City Hall,11
+60,Embarcadero at Sansome,57,5th at Howard,59
+60,Embarcadero at Sansome,56,Beale at Market,81
+60,Embarcadero at Sansome,63,Howard at 2nd,59
+60,Embarcadero at Sansome,62,2nd at Folsom,42
+60,Embarcadero at Sansome,61,2nd at Townsend,200
+60,Embarcadero at Sansome,60,Embarcadero at Sansome,774
+68,Yerba Buena Center of the Arts (3rd @ Howard),68,Yerba Buena Center of the Arts (3rd @ Howard),117
+68,Yerba Buena Center of the Arts (3rd @ Howard),69,San Francisco Caltrain 2 (330 Townsend),15
+68,Yerba Buena Center of the Arts (3rd @ Howard),70,San Francisco Caltrain (Townsend at 4th),48
+68,Yerba Buena Center of the Arts (3rd @ Howard),71,Powell at Post (Union Square),43
+68,Yerba Buena Center of the Arts (3rd @ Howard),64,2nd at South Park,21
+68,Yerba Buena Center of the Arts (3rd @ Howard),65,Townsend at 7th,19
+68,Yerba Buena Center of the Arts (3rd @ Howard),66,South Van Ness at Market,34
+68,Yerba Buena Center of the Arts (3rd @ Howard),67,Market at 10th,33
+68,Yerba Buena Center of the Arts (3rd @ Howard),76,Market at 4th,11
+68,Yerba Buena Center of the Arts (3rd @ Howard),77,Market at Sansome,16
+68,Yerba Buena Center of the Arts (3rd @ Howard),72,Civic Center BART (7th at Market),20
+68,Yerba Buena Center of the Arts (3rd @ Howard),73,Grant Avenue at Columbus Avenue,30
+68,Yerba Buena Center of the Arts (3rd @ Howard),74,Steuart at Market,40
+68,Yerba Buena Center of the Arts (3rd @ Howard),75,Mechanics Plaza (Market at Battery),13
+68,Yerba Buena Center of the Arts (3rd @ Howard),82,Broadway St at Battery St,9
+68,Yerba Buena Center of the Arts (3rd @ Howard),39,Powell Street BART,34
+68,Yerba Buena Center of the Arts (3rd @ Howard),42,Davis at Jackson,1
+68,Yerba Buena Center of the Arts (3rd @ Howard),41,Clay at Battery,18
+68,Yerba Buena Center of the Arts (3rd @ Howard),46,Washington at Kearney,21
+68,Yerba Buena Center of the Arts (3rd @ Howard),47,Post at Kearney,27
+68,Yerba Buena Center of the Arts (3rd @ Howard),45,Commercial at Montgomery,9
+68,Yerba Buena Center of the Arts (3rd @ Howard),51,Embarcadero at Folsom,16
+68,Yerba Buena Center of the Arts (3rd @ Howard),50,Harry Bridges Plaza (Ferry Building),65
+68,Yerba Buena Center of the Arts (3rd @ Howard),49,Spear at Folsom,13
+68,Yerba Buena Center of the Arts (3rd @ Howard),48,Embarcadero at Vallejo,33
+68,Yerba Buena Center of the Arts (3rd @ Howard),55,Temporary Transbay Terminal (Howard at Beale),4
+68,Yerba Buena Center of the Arts (3rd @ Howard),54,Embarcadero at Bryant,8
+68,Yerba Buena Center of the Arts (3rd @ Howard),59,Golden Gate at Polk,6
+68,Yerba Buena Center of the Arts (3rd @ Howard),58,San Francisco City Hall,8
+68,Yerba Buena Center of the Arts (3rd @ Howard),57,5th at Howard,15
+68,Yerba Buena Center of the Arts (3rd @ Howard),56,Beale at Market,9
+68,Yerba Buena Center of the Arts (3rd @ Howard),63,Howard at 2nd,10
+68,Yerba Buena Center of the Arts (3rd @ Howard),62,2nd at Folsom,8
+68,Yerba Buena Center of the Arts (3rd @ Howard),61,2nd at Townsend,31
+68,Yerba Buena Center of the Arts (3rd @ Howard),60,Embarcadero at Sansome,87
+69,San Francisco Caltrain 2 (330 Townsend),68,Yerba Buena Center of the Arts (3rd @ Howard),17
+69,San Francisco Caltrain 2 (330 Townsend),69,San Francisco Caltrain 2 (330 Townsend),47
+69,San Francisco Caltrain 2 (330 Townsend),70,San Francisco Caltrain (Townsend at 4th),21
+69,San Francisco Caltrain 2 (330 Townsend),71,Powell at Post (Union Square),25
+69,San Francisco Caltrain 2 (330 Townsend),64,2nd at South Park,6
+69,San Francisco Caltrain 2 (330 Townsend),65,Townsend at 7th,51
+69,San Francisco Caltrain 2 (330 Townsend),66,South Van Ness at Market,18
+69,San Francisco Caltrain 2 (330 Townsend),67,Market at 10th,49
+69,San Francisco Caltrain 2 (330 Townsend),76,Market at 4th,29
+69,San Francisco Caltrain 2 (330 Townsend),77,Market at Sansome,19
+69,San Francisco Caltrain 2 (330 Townsend),72,Civic Center BART (7th at Market),19
+69,San Francisco Caltrain 2 (330 Townsend),73,Grant Avenue at Columbus Avenue,16
+69,San Francisco Caltrain 2 (330 Townsend),74,Steuart at Market,29
+69,San Francisco Caltrain 2 (330 Townsend),75,Mechanics Plaza (Market at Battery),17
+69,San Francisco Caltrain 2 (330 Townsend),82,Broadway St at Battery St,19
+69,San Francisco Caltrain 2 (330 Townsend),39,Powell Street BART,47
+69,San Francisco Caltrain 2 (330 Townsend),42,Davis at Jackson,10
+69,San Francisco Caltrain 2 (330 Townsend),41,Clay at Battery,9
+69,San Francisco Caltrain 2 (330 Townsend),46,Washington at Kearney,6
+69,San Francisco Caltrain 2 (330 Townsend),47,Post at Kearney,15
+69,San Francisco Caltrain 2 (330 Townsend),45,Commercial at Montgomery,10
+69,San Francisco Caltrain 2 (330 Townsend),51,Embarcadero at Folsom,16
+69,San Francisco Caltrain 2 (330 Townsend),50,Harry Bridges Plaza (Ferry Building),81
+69,San Francisco Caltrain 2 (330 Townsend),49,Spear at Folsom,6
+69,San Francisco Caltrain 2 (330 Townsend),48,Embarcadero at Vallejo,21
+69,San Francisco Caltrain 2 (330 Townsend),55,Temporary Transbay Terminal (Howard at Beale),14
+69,San Francisco Caltrain 2 (330 Townsend),54,Embarcadero at Bryant,11
+69,San Francisco Caltrain 2 (330 Townsend),59,Golden Gate at Polk,14
+69,San Francisco Caltrain 2 (330 Townsend),58,San Francisco City Hall,7
+69,San Francisco Caltrain 2 (330 Townsend),57,5th at Howard,39
+69,San Francisco Caltrain 2 (330 Townsend),56,Beale at Market,11
+69,San Francisco Caltrain 2 (330 Townsend),63,Howard at 2nd,14
+69,San Francisco Caltrain 2 (330 Townsend),62,2nd at Folsom,27
+69,San Francisco Caltrain 2 (330 Townsend),61,2nd at Townsend,24
+69,San Francisco Caltrain 2 (330 Townsend),60,Embarcadero at Sansome,71
+70,San Francisco Caltrain (Townsend at 4th),68,Yerba Buena Center of the Arts (3rd @ Howard),45
+70,San Francisco Caltrain (Townsend at 4th),69,San Francisco Caltrain 2 (330 Townsend),17
+70,San Francisco Caltrain (Townsend at 4th),70,San Francisco Caltrain (Townsend at 4th),140
+70,San Francisco Caltrain (Townsend at 4th),71,Powell at Post (Union Square),45
+70,San Francisco Caltrain (Townsend at 4th),64,2nd at South Park,17
+70,San Francisco Caltrain (Townsend at 4th),65,Townsend at 7th,53
+70,San Francisco Caltrain (Townsend at 4th),66,South Van Ness at Market,34
+70,San Francisco Caltrain (Townsend at 4th),67,Market at 10th,46
+70,San Francisco Caltrain (Townsend at 4th),76,Market at 4th,44
+70,San Francisco Caltrain (Townsend at 4th),77,Market at Sansome,49
+70,San Francisco Caltrain (Townsend at 4th),72,Civic Center BART (7th at Market),31
+70,San Francisco Caltrain (Townsend at 4th),73,Grant Avenue at Columbus Avenue,44
+70,San Francisco Caltrain (Townsend at 4th),74,Steuart at Market,35
+70,San Francisco Caltrain (Townsend at 4th),75,Mechanics Plaza (Market at Battery),15
+70,San Francisco Caltrain (Townsend at 4th),82,Broadway St at Battery St,30
+70,San Francisco Caltrain (Townsend at 4th),29,San Antonio Caltrain Station,1
+70,San Francisco Caltrain (Townsend at 4th),39,Powell Street BART,68
+70,San Francisco Caltrain (Townsend at 4th),42,Davis at Jackson,14
+70,San Francisco Caltrain (Townsend at 4th),41,Clay at Battery,14
+70,San Francisco Caltrain (Townsend at 4th),46,Washington at Kearney,20
+70,San Francisco Caltrain (Townsend at 4th),47,Post at Kearney,32
+70,San Francisco Caltrain (Townsend at 4th),45,Commercial at Montgomery,17
+70,San Francisco Caltrain (Townsend at 4th),51,Embarcadero at Folsom,20
+70,San Francisco Caltrain (Townsend at 4th),50,Harry Bridges Plaza (Ferry Building),184
+70,San Francisco Caltrain (Townsend at 4th),49,Spear at Folsom,21
+70,San Francisco Caltrain (Townsend at 4th),48,Embarcadero at Vallejo,40
+70,San Francisco Caltrain (Townsend at 4th),55,Temporary Transbay Terminal (Howard at Beale),52
+70,San Francisco Caltrain (Townsend at 4th),54,Embarcadero at Bryant,32
+70,San Francisco Caltrain (Townsend at 4th),59,Golden Gate at Polk,15
+70,San Francisco Caltrain (Townsend at 4th),58,San Francisco City Hall,4
+70,San Francisco Caltrain (Townsend at 4th),57,5th at Howard,51
+70,San Francisco Caltrain (Townsend at 4th),56,Beale at Market,9
+70,San Francisco Caltrain (Townsend at 4th),63,Howard at 2nd,23
+70,San Francisco Caltrain (Townsend at 4th),62,2nd at Folsom,26
+70,San Francisco Caltrain (Townsend at 4th),61,2nd at Townsend,28
+70,San Francisco Caltrain (Townsend at 4th),60,Embarcadero at Sansome,104
+71,Powell at Post (Union Square),68,Yerba Buena Center of the Arts (3rd @ Howard),43
+71,Powell at Post (Union Square),69,San Francisco Caltrain 2 (330 Townsend),29
+71,Powell at Post (Union Square),70,San Francisco Caltrain (Townsend at 4th),46
+71,Powell at Post (Union Square),71,Powell at Post (Union Square),246
+71,Powell at Post (Union Square),64,2nd at South Park,19
+71,Powell at Post (Union Square),65,Townsend at 7th,19
+71,Powell at Post (Union Square),66,South Van Ness at Market,57
+71,Powell at Post (Union Square),67,Market at 10th,55
+71,Powell at Post (Union Square),76,Market at 4th,39
+71,Powell at Post (Union Square),77,Market at Sansome,42
+71,Powell at Post (Union Square),72,Civic Center BART (7th at Market),45
+71,Powell at Post (Union Square),73,Grant Avenue at Columbus Avenue,77
+71,Powell at Post (Union Square),74,Steuart at Market,84
+71,Powell at Post (Union Square),75,Mechanics Plaza (Market at Battery),16
+71,Powell at Post (Union Square),82,Broadway St at Battery St,9
+71,Powell at Post (Union Square),39,Powell Street BART,43
+71,Powell at Post (Union Square),42,Davis at Jackson,10
+71,Powell at Post (Union Square),41,Clay at Battery,31
+71,Powell at Post (Union Square),46,Washington at Kearney,50
+71,Powell at Post (Union Square),47,Post at Kearney,28
+71,Powell at Post (Union Square),45,Commercial at Montgomery,15
+71,Powell at Post (Union Square),51,Embarcadero at Folsom,20
+71,Powell at Post (Union Square),50,Harry Bridges Plaza (Ferry Building),206
+71,Powell at Post (Union Square),49,Spear at Folsom,13
+71,Powell at Post (Union Square),48,Embarcadero at Vallejo,49
+71,Powell at Post (Union Square),55,Temporary Transbay Terminal (Howard at Beale),10
+71,Powell at Post (Union Square),54,Embarcadero at Bryant,18
+71,Powell at Post (Union Square),59,Golden Gate at Polk,36
+71,Powell at Post (Union Square),58,San Francisco City Hall,26
+71,Powell at Post (Union Square),57,5th at Howard,16
+71,Powell at Post (Union Square),56,Beale at Market,20
+71,Powell at Post (Union Square),63,Howard at 2nd,20
+71,Powell at Post (Union Square),62,2nd at Folsom,9
+71,Powell at Post (Union Square),61,2nd at Townsend,20
+71,Powell at Post (Union Square),60,Embarcadero at Sansome,187
+64,2nd at South Park,68,Yerba Buena Center of the Arts (3rd @ Howard),14
+64,2nd at South Park,69,San Francisco Caltrain 2 (330 Townsend),19
+64,2nd at South Park,70,San Francisco Caltrain (Townsend at 4th),15
+64,2nd at South Park,71,Powell at Post (Union Square),34
+64,2nd at South Park,64,2nd at South Park,26
+64,2nd at South Park,65,Townsend at 7th,24
+64,2nd at South Park,66,South Van Ness at Market,4
+64,2nd at South Park,67,Market at 10th,25
+64,2nd at South Park,76,Market at 4th,22
+64,2nd at South Park,77,Market at Sansome,36
+64,2nd at South Park,72,Civic Center BART (7th at Market),8
+64,2nd at South Park,73,Grant Avenue at Columbus Avenue,18
+64,2nd at South Park,74,Steuart at Market,16
+64,2nd at South Park,75,Mechanics Plaza (Market at Battery),2
+64,2nd at South Park,82,Broadway St at Battery St,7
+64,2nd at South Park,39,Powell Street BART,27
+64,2nd at South Park,42,Davis at Jackson,1
+64,2nd at South Park,41,Clay at Battery,9
+64,2nd at South Park,46,Washington at Kearney,9
+64,2nd at South Park,47,Post at Kearney,14
+64,2nd at South Park,45,Commercial at Montgomery,11
+64,2nd at South Park,51,Embarcadero at Folsom,11
+64,2nd at South Park,50,Harry Bridges Plaza (Ferry Building),76
+64,2nd at South Park,49,Spear at Folsom,3
+64,2nd at South Park,48,Embarcadero at Vallejo,12
+64,2nd at South Park,55,Temporary Transbay Terminal (Howard at Beale),3
+64,2nd at South Park,54,Embarcadero at Bryant,12
+64,2nd at South Park,59,Golden Gate at Polk,3
+64,2nd at South Park,58,San Francisco City Hall,9
+64,2nd at South Park,57,5th at Howard,16
+64,2nd at South Park,56,Beale at Market,5
+64,2nd at South Park,63,Howard at 2nd,15
+64,2nd at South Park,62,2nd at Folsom,4
+64,2nd at South Park,61,2nd at Townsend,8
+64,2nd at South Park,60,Embarcadero at Sansome,48
+65,Townsend at 7th,68,Yerba Buena Center of the Arts (3rd @ Howard),22
+65,Townsend at 7th,69,San Francisco Caltrain 2 (330 Townsend),73
+65,Townsend at 7th,70,San Francisco Caltrain (Townsend at 4th),42
+65,Townsend at 7th,71,Powell at Post (Union Square),15
+65,Townsend at 7th,64,2nd at South Park,11
+65,Townsend at 7th,65,Townsend at 7th,44
+65,Townsend at 7th,66,South Van Ness at Market,14
+65,Townsend at 7th,67,Market at 10th,20
+65,Townsend at 7th,76,Market at 4th,25
+65,Townsend at 7th,77,Market at Sansome,15
+65,Townsend at 7th,72,Civic Center BART (7th at Market),60
+65,Townsend at 7th,73,Grant Avenue at Columbus Avenue,7
+65,Townsend at 7th,74,Steuart at Market,22
+65,Townsend at 7th,75,Mechanics Plaza (Market at Battery),2
+65,Townsend at 7th,82,Broadway St at Battery St,5
+65,Townsend at 7th,39,Powell Street BART,21
+65,Townsend at 7th,42,Davis at Jackson,2
+65,Townsend at 7th,41,Clay at Battery,3
+65,Townsend at 7th,46,Washington at Kearney,4
+65,Townsend at 7th,47,Post at Kearney,4
+65,Townsend at 7th,45,Commercial at Montgomery,5
+65,Townsend at 7th,51,Embarcadero at Folsom,12
+65,Townsend at 7th,50,Harry Bridges Plaza (Ferry Building),57
+65,Townsend at 7th,49,Spear at Folsom,8
+65,Townsend at 7th,48,Embarcadero at Vallejo,9
+65,Townsend at 7th,55,Temporary Transbay Terminal (Howard at Beale),8
+65,Townsend at 7th,54,Embarcadero at Bryant,19
+65,Townsend at 7th,59,Golden Gate at Polk,7
+65,Townsend at 7th,58,San Francisco City Hall,5
+65,Townsend at 7th,57,5th at Howard,14
+65,Townsend at 7th,56,Beale at Market,3
+65,Townsend at 7th,63,Howard at 2nd,4
+65,Townsend at 7th,62,2nd at Folsom,16
+65,Townsend at 7th,61,2nd at Townsend,52
+65,Townsend at 7th,60,Embarcadero at Sansome,14
+66,South Van Ness at Market,68,Yerba Buena Center of the Arts (3rd @ Howard),16
+66,South Van Ness at Market,69,San Francisco Caltrain 2 (330 Townsend),23
+66,South Van Ness at Market,70,San Francisco Caltrain (Townsend at 4th),16
+66,South Van Ness at Market,71,Powell at Post (Union Square),37
+66,South Van Ness at Market,64,2nd at South Park,2
+66,South Van Ness at Market,65,Townsend at 7th,14
+66,South Van Ness at Market,66,South Van Ness at Market,108
+66,South Van Ness at Market,67,Market at 10th,25
+66,South Van Ness at Market,76,Market at 4th,69
+66,South Van Ness at Market,77,Market at Sansome,20
+66,South Van Ness at Market,72,Civic Center BART (7th at Market),23
+66,South Van Ness at Market,73,Grant Avenue at Columbus Avenue,14
+66,South Van Ness at Market,74,Steuart at Market,24
+66,South Van Ness at Market,75,Mechanics Plaza (Market at Battery),6
+66,South Van Ness at Market,82,Broadway St at Battery St,2
+66,South Van Ness at Market,39,Powell Street BART,65
+66,South Van Ness at Market,42,Davis at Jackson,4
+66,South Van Ness at Market,41,Clay at Battery,9
+66,South Van Ness at Market,46,Washington at Kearney,10
+66,South Van Ness at Market,47,Post at Kearney,5
+66,South Van Ness at Market,45,Commercial at Montgomery,1
+66,South Van Ness at Market,51,Embarcadero at Folsom,2
+66,South Van Ness at Market,50,Harry Bridges Plaza (Ferry Building),57
+66,South Van Ness at Market,49,Spear at Folsom,1
+66,South Van Ness at Market,48,Embarcadero at Vallejo,7
+66,South Van Ness at Market,55,Temporary Transbay Terminal (Howard at Beale),5
+66,South Van Ness at Market,54,Embarcadero at Bryant,2
+66,South Van Ness at Market,59,Golden Gate at Polk,9
+66,South Van Ness at Market,58,San Francisco City Hall,9
+66,South Van Ness at Market,57,5th at Howard,26
+66,South Van Ness at Market,56,Beale at Market,13
+66,South Van Ness at Market,63,Howard at 2nd,3
+66,South Van Ness at Market,62,2nd at Folsom,4
+66,South Van Ness at Market,61,2nd at Townsend,16
+66,South Van Ness at Market,60,Embarcadero at Sansome,22
+67,Market at 10th,68,Yerba Buena Center of the Arts (3rd @ Howard),24
+67,Market at 10th,69,San Francisco Caltrain 2 (330 Townsend),42
+67,Market at 10th,70,San Francisco Caltrain (Townsend at 4th),59
+67,Market at 10th,71,Powell at Post (Union Square),36
+67,Market at 10th,64,2nd at South Park,10
+67,Market at 10th,65,Townsend at 7th,20
+67,Market at 10th,39,Powell Street BART,148
+67,Market at 10th,66,South Van Ness at Market,41
+67,Market at 10th,67,Market at 10th,169
+67,Market at 10th,76,Market at 4th,89
+67,Market at 10th,77,Market at Sansome,68
+67,Market at 10th,41,Clay at Battery,11
+67,Market at 10th,72,Civic Center BART (7th at Market),32
+67,Market at 10th,46,Washington at Kearney,14
+67,Market at 10th,47,Post at Kearney,17
+67,Market at 10th,73,Grant Avenue at Columbus Avenue,27
+67,Market at 10th,74,Steuart at Market,88
+67,Market at 10th,45,Commercial at Montgomery,7
+67,Market at 10th,75,Mechanics Plaza (Market at Battery),15
+67,Market at 10th,51,Embarcadero at Folsom,7
+67,Market at 10th,50,Harry Bridges Plaza (Ferry Building),82
+67,Market at 10th,49,Spear at Folsom,16
+67,Market at 10th,48,Embarcadero at Vallejo,16
+67,Market at 10th,55,Temporary Transbay Terminal (Howard at Beale),4
+67,Market at 10th,54,Embarcadero at Bryant,9
+67,Market at 10th,82,Broadway St at Battery St,9
+67,Market at 10th,59,Golden Gate at Polk,19
+67,Market at 10th,58,San Francisco City Hall,11
+67,Market at 10th,57,5th at Howard,31
+67,Market at 10th,56,Beale at Market,14
+67,Market at 10th,63,Howard at 2nd,8
+67,Market at 10th,62,2nd at Folsom,17
+67,Market at 10th,61,2nd at Townsend,12
+67,Market at 10th,60,Embarcadero at Sansome,52
+76,Market at 4th,68,Yerba Buena Center of the Arts (3rd @ Howard),15
+76,Market at 4th,69,San Francisco Caltrain 2 (330 Townsend),36
+76,Market at 4th,70,San Francisco Caltrain (Townsend at 4th),66
+76,Market at 4th,71,Powell at Post (Union Square),58
+76,Market at 4th,64,2nd at South Park,25
+76,Market at 4th,65,Townsend at 7th,18
+76,Market at 4th,66,South Van Ness at Market,82
+76,Market at 4th,67,Market at 10th,84
+76,Market at 4th,76,Market at 4th,278
+76,Market at 4th,77,Market at Sansome,56
+76,Market at 4th,72,Civic Center BART (7th at Market),34
+76,Market at 4th,73,Grant Avenue at Columbus Avenue,52
+76,Market at 4th,74,Steuart at Market,137
+76,Market at 4th,75,Mechanics Plaza (Market at Battery),36
+76,Market at 4th,82,Broadway St at Battery St,20
+76,Market at 4th,25,Stanford in Redwood City,1
+76,Market at 4th,39,Powell Street BART,58
+76,Market at 4th,42,Davis at Jackson,16
+76,Market at 4th,41,Clay at Battery,21
+76,Market at 4th,46,Washington at Kearney,36
+76,Market at 4th,47,Post at Kearney,18
+76,Market at 4th,45,Commercial at Montgomery,18
+76,Market at 4th,51,Embarcadero at Folsom,18
+76,Market at 4th,50,Harry Bridges Plaza (Ferry Building),200
+76,Market at 4th,49,Spear at Folsom,13
+76,Market at 4th,48,Embarcadero at Vallejo,77
+76,Market at 4th,55,Temporary Transbay Terminal (Howard at Beale),12
+76,Market at 4th,54,Embarcadero at Bryant,20
+76,Market at 4th,59,Golden Gate at Polk,25
+76,Market at 4th,58,San Francisco City Hall,37
+76,Market at 4th,57,5th at Howard,19
+76,Market at 4th,56,Beale at Market,29
+76,Market at 4th,63,Howard at 2nd,13
+76,Market at 4th,62,2nd at Folsom,18
+76,Market at 4th,61,2nd at Townsend,54
+76,Market at 4th,60,Embarcadero at Sansome,230
+77,Market at Sansome,68,Yerba Buena Center of the Arts (3rd @ Howard),10
+77,Market at Sansome,69,San Francisco Caltrain 2 (330 Townsend),31
+77,Market at Sansome,70,San Francisco Caltrain (Townsend at 4th),53
+77,Market at Sansome,71,Powell at Post (Union Square),34
+77,Market at Sansome,64,2nd at South Park,35
+77,Market at Sansome,65,Townsend at 7th,16
+77,Market at Sansome,66,South Van Ness at Market,15
+77,Market at Sansome,67,Market at 10th,37
+77,Market at Sansome,76,Market at 4th,45
+77,Market at Sansome,77,Market at Sansome,80
+77,Market at Sansome,72,Civic Center BART (7th at Market),17
+77,Market at Sansome,73,Grant Avenue at Columbus Avenue,39
+77,Market at Sansome,74,Steuart at Market,84
+77,Market at Sansome,75,Mechanics Plaza (Market at Battery),23
+77,Market at Sansome,82,Broadway St at Battery St,18
+77,Market at Sansome,39,Powell Street BART,38
+77,Market at Sansome,42,Davis at Jackson,13
+77,Market at Sansome,41,Clay at Battery,9
+77,Market at Sansome,46,Washington at Kearney,15
+77,Market at Sansome,47,Post at Kearney,13
+77,Market at Sansome,45,Commercial at Montgomery,10
+77,Market at Sansome,51,Embarcadero at Folsom,14
+77,Market at Sansome,50,Harry Bridges Plaza (Ferry Building),162
+77,Market at Sansome,49,Spear at Folsom,5
+77,Market at Sansome,48,Embarcadero at Vallejo,39
+77,Market at Sansome,55,Temporary Transbay Terminal (Howard at Beale),5
+77,Market at Sansome,54,Embarcadero at Bryant,12
+77,Market at Sansome,59,Golden Gate at Polk,11
+77,Market at Sansome,58,San Francisco City Hall,8
+77,Market at Sansome,57,5th at Howard,9
+77,Market at Sansome,56,Beale at Market,14
+77,Market at Sansome,63,Howard at 2nd,4
+77,Market at Sansome,62,2nd at Folsom,10
+77,Market at Sansome,61,2nd at Townsend,52
+77,Market at Sansome,60,Embarcadero at Sansome,184
+72,Civic Center BART (7th at Market),68,Yerba Buena Center of the Arts (3rd @ Howard),23
+72,Civic Center BART (7th at Market),69,San Francisco Caltrain 2 (330 Townsend),24
+72,Civic Center BART (7th at Market),70,San Francisco Caltrain (Townsend at 4th),20
+72,Civic Center BART (7th at Market),71,Powell at Post (Union Square),35
+72,Civic Center BART (7th at Market),64,2nd at South Park,12
+72,Civic Center BART (7th at Market),65,Townsend at 7th,38
+72,Civic Center BART (7th at Market),66,South Van Ness at Market,44
+72,Civic Center BART (7th at Market),67,Market at 10th,67
+72,Civic Center BART (7th at Market),76,Market at 4th,79
+72,Civic Center BART (7th at Market),77,Market at Sansome,36
+72,Civic Center BART (7th at Market),72,Civic Center BART (7th at Market),118
+72,Civic Center BART (7th at Market),73,Grant Avenue at Columbus Avenue,27
+72,Civic Center BART (7th at Market),74,Steuart at Market,57
+72,Civic Center BART (7th at Market),75,Mechanics Plaza (Market at Battery),16
+72,Civic Center BART (7th at Market),82,Broadway St at Battery St,2
+72,Civic Center BART (7th at Market),39,Powell Street BART,65
+72,Civic Center BART (7th at Market),42,Davis at Jackson,1
+72,Civic Center BART (7th at Market),41,Clay at Battery,11
+72,Civic Center BART (7th at Market),46,Washington at Kearney,8
+72,Civic Center BART (7th at Market),47,Post at Kearney,17
+72,Civic Center BART (7th at Market),45,Commercial at Montgomery,11
+72,Civic Center BART (7th at Market),51,Embarcadero at Folsom,2
+72,Civic Center BART (7th at Market),50,Harry Bridges Plaza (Ferry Building),61
+72,Civic Center BART (7th at Market),49,Spear at Folsom,5
+72,Civic Center BART (7th at Market),48,Embarcadero at Vallejo,13
+72,Civic Center BART (7th at Market),55,Temporary Transbay Terminal (Howard at Beale),3
+72,Civic Center BART (7th at Market),54,Embarcadero at Bryant,1
+72,Civic Center BART (7th at Market),59,Golden Gate at Polk,11
+72,Civic Center BART (7th at Market),58,San Francisco City Hall,9
+72,Civic Center BART (7th at Market),57,5th at Howard,21
+72,Civic Center BART (7th at Market),56,Beale at Market,17
+72,Civic Center BART (7th at Market),63,Howard at 2nd,7
+72,Civic Center BART (7th at Market),62,2nd at Folsom,11
+72,Civic Center BART (7th at Market),61,2nd at Townsend,8
+72,Civic Center BART (7th at Market),60,Embarcadero at Sansome,84
+73,Grant Avenue at Columbus Avenue,68,Yerba Buena Center of the Arts (3rd @ Howard),15
+73,Grant Avenue at Columbus Avenue,69,San Francisco Caltrain 2 (330 Townsend),13
+73,Grant Avenue at Columbus Avenue,70,San Francisco Caltrain (Townsend at 4th),51
+73,Grant Avenue at Columbus Avenue,71,Powell at Post (Union Square),107
+73,Grant Avenue at Columbus Avenue,64,2nd at South Park,15
+73,Grant Avenue at Columbus Avenue,65,Townsend at 7th,9
+73,Grant Aven
